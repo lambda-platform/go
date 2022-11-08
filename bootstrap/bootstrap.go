@@ -41,6 +41,11 @@ func Set() *lambda.Lambda {
     })
     middlewares.Set(Lambda.App)
     KrudMiddleWares := []fiber.Handler{}
+
+    if config.LambdaConfig.Notify.FirebaseConfig.APIKey != "" && config.LambdaConfig.Notify.FirebaseConfig.AppID != "" {
+        notify.Set(Lambda.App)
+        KrudMiddleWares = append(KrudMiddleWares, notify.MW(gridCaller.GetMODEL, caller.GetMODEL))
+    }
     agent.Set(Lambda.App)
     krud.Set(Lambda.App, gridCaller.GetMODEL, caller.GetMODEL, KrudMiddleWares, true)
 
@@ -62,10 +67,6 @@ func Set() *lambda.Lambda {
     */
     routes.Api(Lambda.App)
     routes.Web(Lambda.App)
-
-    if config.LambdaConfig.Notify.FirebaseConfig.APIKey != "" && config.LambdaConfig.Notify.FirebaseConfig.AppID != "" {
-        notify.Set(Lambda.App)
-    }
 
     return Lambda
 }
