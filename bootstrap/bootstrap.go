@@ -3,6 +3,8 @@ package bootstrap
 import (
     "github.com/gofiber/fiber/v2"
     "github.com/lambda-platform/lambda/chart"
+    "github.com/lambda-platform/lambda/config"
+    "github.com/lambda-platform/lambda/notify"
     "lambda/app/middlewares"
     "lambda/lambda/graph"
     "lambda/lambda/models/form/caller"
@@ -60,6 +62,10 @@ func Set() *lambda.Lambda {
     */
     routes.Api(Lambda.App)
     routes.Web(Lambda.App)
+
+    if config.LambdaConfig.Notify.FirebaseConfig.APIKey != "" && config.LambdaConfig.Notify.FirebaseConfig.AppID != "" {
+        notify.Set(Lambda.App)
+    }
 
     return Lambda
 }
