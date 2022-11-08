@@ -8,8 +8,9 @@ import (
 func Web(e *fiber.App) {
 
 	//WEB ROUTE
-	e.Get("/", controllers.Home)                  //production
-	e.Get("/admin/p/:menu_id", controllers.Admin) //production
+	e.Get("/", controllers.Home)                    //production
+	e.Get("/form/:formID/:rowID", controllers.Form) //production
+	e.Get("/admin/p/:menu_id", controllers.Admin)   //production
 	e.Get("/auth/forgot", controllers.Login)
 	e.Get("/auth/login", controllers.Login)
 	//ADMIN ROUTE

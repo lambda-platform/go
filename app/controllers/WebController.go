@@ -9,6 +9,10 @@ import (
 func Home(c *fiber.Ctx) error {
 	return c.Status(http.StatusSeeOther).Redirect("/auth/login")
 }
+func Form(c *fiber.Ctx) error {
+
+	return JustRenderTemplate("public/form/index.html", c)
+}
 func Admin(c *fiber.Ctx) error {
 
 	return JustRenderTemplate("public/admin/index.html", c)
