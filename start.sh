@@ -1,8 +1,13 @@
-rm -R ./lambda
-echo "INIT START"
-mkdir ./lambda
-chmod -R 777 ./lambda
+if [ $OSTYPE == "msys" ]; then
+    rm -R ./lambda
+    echo "INIT START"
+    mkdir ./lambda
+else
+    sudo rm -R ./lambda
+    echo "INIT START"
+    mkdir ./lambda
+fi
+
 go run ./bootstrap/init/init.go
-chmod -R 755 ./lambda
 echo "Ready"
 go run main.go

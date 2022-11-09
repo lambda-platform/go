@@ -16,7 +16,7 @@
     "super_url": "/lambda/puzzle",
     "app_url": "/admin",
     "has_language": false,
-    "withCrudLog": false,
+    "withCrudLog": true,
     "krud_public": false,
     "languages": [
         {
@@ -36,7 +36,8 @@
         }
     ],
     "user_data_fields": [
-        "id"
+        "ID",
+        "DEPARTMENT_ID"
     ],
     "data_form_custom_elements": [
         {
