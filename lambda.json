@@ -16,7 +16,7 @@
     "super_url": "/lambda/puzzle",
     "app_url": "/admin",
     "has_language": false,
-    "withCrudLog": true,
+    "withCrudLog": false,
     "krud_public": false,
     "languages": [
         {
