@@ -13,3 +13,8 @@ go.sum
 node_modules
 crud-export.json
 public/uploaded
+lambda/models
+lambda/graph
+lambda/microservices
+lambda/schemas
+lambda/db_schema.json
