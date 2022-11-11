@@ -37,7 +37,6 @@
     ],
     "user_data_fields": [
         "ID",
-        "DEPARTMENT_ID"
     ],
     "data_form_custom_elements": [
         {
