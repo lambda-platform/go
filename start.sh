@@ -1,5 +1,5 @@
 if [ $OSTYPE == "msys" ]; then
-    rm -R ./lambda
+    rm -R -f ./lambda
     echo "INIT START"
     mkdir ./lambda
 else
