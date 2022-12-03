@@ -43,7 +43,14 @@
             "element": "manaikhorooPlanCreator"
         }
     ],
-    "data_grid_custom_elements": [],
+    "data_grid_custom_elements": [
+        {
+            "element": "coloredCell"
+        },
+        {
+            "element": "callForm"
+        }
+    ],
     "password_reset_time_out": 0,
     "static_words": {
         "mn_MN": {
