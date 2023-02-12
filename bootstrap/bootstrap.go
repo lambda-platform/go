@@ -19,6 +19,7 @@ import (
 	"github.com/lambda-platform/lambda/agent"
 	"github.com/lambda-platform/lambda/exportImport"
 	"github.com/lambda-platform/lambda/krud"
+	"github.com/lambda-platform/lambda/oauth2"
 	"github.com/lambda-platform/lambda/puzzle"
 
 	/*
@@ -65,6 +66,12 @@ func Set() *lambda.Lambda {
 	chart.Set(Lambda.App)
 	moqup.Set(Lambda.App)
 
+	/*
+		|----------------------------------------------
+		| OAuth 2 for Lambda
+		|----------------------------------------------
+	*/
+	oauth2.Set(Lambda.App)
 	/*
 		|----------------------------------------------
 		| ROUTES
