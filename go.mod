@@ -10,13 +10,13 @@ require (
 	github.com/thedevsaddam/govalidator v1.9.10
 	golang.org/x/net v0.2.0 // indirect
 	golang.org/x/tools v0.2.0 // indirect
-	gorm.io/gorm v1.24.0
+	gorm.io/gorm v1.24.5
 
 )
 
 //replace github.com/lambda-platform/lambda/puzzle v0.2.2 => ../../go/puzzle
 //replace github.com/lambda-platform/lambda/generator v0.0.1 => ../../go/generator
 //
-//replace github.com/lambda-platform/lambda v0.5.80 => ../../../lambda-fiber
+replace github.com/lambda-platform/lambda v0.5.80 => ../../../lambda-fiber
 
 //replace github.com/lambda-platform/arcGIS v0.0.1 => ./arcGIS
