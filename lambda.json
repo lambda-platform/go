@@ -97,5 +97,20 @@
         "serverKey": "",
         "sound": "/assets/lambda/notification.mp3",
         "icon": ""
-    }
+    },
+    "custom_icons": [
+        {
+            "title": "Cuctom icon example",
+            "svgs": [
+                {
+                    "name": "Branch",
+                    "url": "/assets/icons/organization/branch.svg"
+                },
+                {
+                    "name": "Structure",
+                    "url": "/assets/icons/organization/structure.svg"
+                }
+            ]
+        }
+    ]
 }
