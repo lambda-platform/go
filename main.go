@@ -7,8 +7,7 @@ import (
 func main() {
 
 	lambda := bootstrap.Set()
-	//DBSchema.GetStruct("oauth_clients")
-	//DBSchema.GetStruct("VB_SCHEMAS_ADMIN")
+	//DBSchema.GetStruct("users")
 	lambda.Start()
 
 }
