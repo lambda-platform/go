@@ -1,11 +1,50 @@
-# Lambda Platform basic example
-1. `go mod download or go mod tidy` 
-2. `create your Database and Set database (host, username and password) in .env (youc can create .env from env_example)`
-3. `bash start.sh `
+## Lambda Starter App
 
-   You are ready :)
+`Lambda Go Starter App` төсөл үүсгэхийн өмнө `^Go 1.16` хэл  болон [өгөгдлийн сан](/docs/installation#өгөгдлийн-сан) суулгасан байх хэрэгтэй. Хэрвээ суулгаагүй бол [Go хэлийг татаж авна уу](https://go.dev/dl/). `Go 1.16` ба түүнээс дээш байх шаардлагатай.
 
-More information: https://lambda-platform.github.io/ 
+`Lambda Go Starter App`-г GitHub Repository-с clone хийж татаж авна.
+  ```bash 
+  git clone https://github.com/lambda-platform/go my-app
+  ```
+Татаж авсан хавтас руу орно
+  ```bash 
+  cd my-app
+  ```
+`env_example`-с [үндсэн тохиргоо](/docs/configration)-ны `.env` файл  үүсгэнэ
+  ```bash 
+  cp env_example .env
+  ```
+.env дотор JWT_SECRET secret-г солих шаардлагатай
+  ```bash 
+  JWT_SECRET=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  ```
+`.env` дотор [өгөгдлийн сангийн](/docs/installation#өгөгдлийн-сан) тохиргоог оруулж өгнө. `DB_CONNECTION` авах боломжит утгууд (mssql,postgres,mysql,oracle)
+  ```bash 
+DB_CONNECTION=postgres 
+DB_HOST=127.0.0.1
+DB_PORT=5432
+DB_DATABASE=postgres
+DB_USERNAME=postgres
+DB_PASSWORD=postgres
+  ```
+Өгөгдлийн сан тохируулсны дараа Cупер админ хэрэглэгчийн мэдээллийг `.env` дотор оруулна
+  ```bash 
+  SYSADMIN_LOGIN=superadmin
+  SYSADMIN_PASSWORD=secret
+  SYSADMIN_EMAIL=null
+  ```
+Go package-уудыг суулгана
+  ```bash 
+go mod tidy
+  ```
+`go run` CLI командыг ашиглан хөгжүүлэлтийн серверийг асаана уу.
+  ```bash 
+  go run main.go
+  ```
+Та хөгжүүлэлтийн серверийг ажиллуулсны дараа Lambda Platform-руу [localhost:3000](http://localhost:3000) хаягаар веб хөтчөөр хандах боломжтой. Анх удаа асах үед тохиргооны [Lambda тохиргооны хүснэгтүүд](/docs/lambda-tables)-үүдийг систем өөрөө `auto migrate`хийж үүсгэнэ 
+
+
+More information: https://lambda-platform.github.io/
 
 ## import url
 
