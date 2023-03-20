@@ -2,10 +2,10 @@
     "schema_load_mode": "auto",
     "project_key": "",
     "theme": "aside",
-    "domain": "http://localhost:8080",
+    "domain": "http://localhost:3000",
     "title": "Lambda Platform",
     "subTitle": "Програм хамгамж бүтээх ажлыг автоматжуулагч",
-    "copyright": "Lambda Platform© 2022",
+    "copyright": "Lambda Platform© 2023",
     "favicon": "/assets/lambda/images/favicon.png",
     "bg": "/assets/lambda/images/bg.png",
     "logo": "/assets/lambda/images/logo.svg",
@@ -40,12 +40,18 @@
     ],
     "data_form_custom_elements": [
         {
-            "element": "manaikhorooPlanCreator"
+            "element": "datetimeAutoFill"
+        },
+        {
+            "element": "inputWithIcon"
         }
     ],
     "data_grid_custom_elements": [
         {
             "element": "coloredCell"
+        },
+        {
+            "element": "popup"
         },
         {
             "element": "callForm"
@@ -100,7 +106,7 @@
     },
     "custom_icons": [
         {
-            "title": "Cuctom icon example",
+            "title": "Custom icon example",
             "svgs": [
                 {
                     "name": "Branch",
