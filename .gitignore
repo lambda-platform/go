@@ -14,8 +14,11 @@ node_modules
 crud-export.json
 public/uploaded
 lambda/models
+lambda/graph/graphql.go
 lambda/graph
 lambda/microservices
 lambda/schemas
 models/form/caller
 lambda/db_schema.json
+lambda/models/form/caller/modelCaller.go
+lambda/models/grid/caller/modelCaller.go
