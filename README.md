@@ -1,6 +1,6 @@
 ## Lambda Starter App
 
-`Lambda Go Starter App` төсөл үүсгэхийн өмнө `^Go 1.16` хэл  болон [өгөгдлийн сан](/docs/installation#өгөгдлийн-сан) суулгасан байх хэрэгтэй. Хэрвээ суулгаагүй бол [Go хэлийг татаж авна уу](https://go.dev/dl/). `Go 1.16` ба түүнээс дээш байх шаардлагатай.
+`Lambda Go Starter App` төсөл үүсгэхийн өмнө `^Go 1.16` хэл  болон [өгөгдлийн сан](https://lambda-platform.github.io/docs/installation#өгөгдлийн-сан) суулгасан байх хэрэгтэй. Хэрвээ суулгаагүй бол [Go хэлийг татаж авна уу](https://go.dev/dl/). `Go 1.16` ба түүнээс дээш байх шаардлагатай.
 
 `Lambda Go Starter App`-г GitHub Repository-с clone хийж татаж авна.
   ```bash 
@@ -10,7 +10,7 @@
   ```bash 
   cd my-app
   ```
-`env_example`-с [үндсэн тохиргоо](/docs/configration)-ны `.env` файл  үүсгэнэ
+`env_example`-с [үндсэн тохиргоо](https://lambda-platform.github.io/docs/configration)-ны `.env` файл  үүсгэнэ
   ```bash 
   cp env_example .env
   ```
@@ -18,7 +18,7 @@
   ```bash 
   JWT_SECRET=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   ```
-`.env` дотор [өгөгдлийн сангийн](/docs/installation#өгөгдлийн-сан) тохиргоог оруулж өгнө. `DB_CONNECTION` авах боломжит утгууд (mssql,postgres,mysql,oracle)
+`.env` дотор [өгөгдлийн сангийн](https://lambda-platform.github.io/docs/installation#өгөгдлийн-сан) тохиргоог оруулж өгнө. `DB_CONNECTION` авах боломжит утгууд (mssql,postgres,mysql,oracle)
   ```bash 
 DB_CONNECTION=postgres 
 DB_HOST=127.0.0.1
@@ -41,7 +41,7 @@ go mod tidy
   ```bash 
   go run main.go
   ```
-Та хөгжүүлэлтийн серверийг ажиллуулсны дараа Lambda Platform-руу [localhost:3000](http://localhost:3000) хаягаар веб хөтчөөр хандах боломжтой. Анх удаа асах үед тохиргооны [Lambda тохиргооны хүснэгтүүд](/docs/lambda-tables)-үүдийг систем өөрөө `auto migrate`хийж үүсгэнэ 
+Та хөгжүүлэлтийн серверийг ажиллуулсны дараа Lambda Platform-руу [localhost:3000](http://localhost:3000) хаягаар веб хөтчөөр хандах боломжтой. Анх удаа асах үед тохиргооны [Lambda тохиргооны хүснэгтүүд](https://lambda-platform.github.io/docs/lambda-tables)-үүдийг систем өөрөө `auto migrate`хийж үүсгэнэ 
 
 
 More information: https://lambda-platform.github.io/
