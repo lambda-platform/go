@@ -1,4 +1,4 @@
-package main
+package bootstrap
 
 import (
 	"github.com/lambda-platform/lambda/DB"
@@ -8,7 +8,7 @@ import (
 	genertarModels "github.com/lambda-platform/lambda/generator/models"
 )
 
-func main() {
+func Generate() {
 	var FormSchemas []genertarModels.ProjectSchemas
 	var GridSchemas []genertarModels.ProjectSchemas
 	var GraphqlSchemas []genertarModels.ProjectSchemas
@@ -29,7 +29,7 @@ func main() {
 	/*
 	   Generate Form, Grid
 	*/
-	generator.ModelInit(dbSchema, FormSchemas, GridSchemas, true, "false")
+	generator.ModelInit(dbSchema, FormSchemas, GridSchemas, true, false)
 	/*
 	   Generate GRAPHQL
 	*/
