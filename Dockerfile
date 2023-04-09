@@ -14,7 +14,6 @@ COPY --from=base /app/ /app/
 COPY --from=base /app/start.sh /app/start.sh
 RUN chmod +x /app/start.sh
 RUN chmod +x /app/main
-EXPOSE 8080
 ENV DB_CONNECTION=postgres \
     DB_HOST=127.0.0.1 \
     DB_PORT=5432 \
@@ -76,5 +75,4 @@ ENV DB_CONNECTION=postgres \
     MAIL_FROM_NAME=LAMBDA \
     GRAPHQL_DEBUG=true \
     LAMBDA_ROOT="./node_modules/@lambda-platform/lambda-builder"
-EXPOSE 8080
 CMD ["./main"]

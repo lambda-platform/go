@@ -55,5 +55,5 @@ docker build --target prod -t lambda:prod .
 docker build --target dev -t lambda:dev .
 
 
-## Docker just start
+## Docker just start for dev
 docker-compose -f compose-dev.yml up 
