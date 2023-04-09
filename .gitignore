@@ -11,6 +11,7 @@ tmp
 go.sum
 *.toml
 node_modules
+main
 crud-export.json
 public/uploaded
 lambda/models
