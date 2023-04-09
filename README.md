@@ -50,5 +50,10 @@ More information: https://lambda-platform.github.io/
 
 http://localhost:3000/crud/import/crud-export.json
 
+## Docker build command
+docker build --target prod -t lambda:prod .
+docker build --target dev -t lambda:dev .
 
-docker build -t lambda .
+
+## Docker just start
+docker-compose -f compose-dev.yml up 
