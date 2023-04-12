@@ -57,5 +57,7 @@ docker build --target dev --platform linux/amd64 -t lambda:dev .
 docker tag lambda:prod munkhaltai/lambda:prod
 docker push munkhaltai/lambda:prod
 
+sudo docker pull munkhaltai/lambda:prod
+
 ## Docker just start for dev
 docker-compose -f compose-dev.yml up 
