@@ -31,7 +31,7 @@ services:
     depends_on:
       - db
     volumes:
-      - ./public/uploads:/app/public/uploads
+      - ./public/uploaded:/app/public/uploaded
 
 volumes:
   postgres-data:

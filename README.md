@@ -51,9 +51,11 @@ More information: https://lambda-platform.github.io/
 http://localhost:3000/crud/import/crud-export.json
 
 ## Docker build command
-docker build --target prod -t lambda:prod .
-docker build --target dev -t lambda:dev .
+docker build --target prod --platform linux/amd64 -t lambda:prod .
+docker build --target dev --platform linux/amd64 -t lambda:dev .
 
+docker tag lambda:prod munkhaltai/lambda:prod
+docker push munkhaltai/lambda:prod
 
 ## Docker just start for dev
 docker-compose -f compose-dev.yml up 
