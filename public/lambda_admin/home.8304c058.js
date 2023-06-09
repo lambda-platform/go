@@ -1,1 +1,0 @@
-import{a as t,o as n,c as a,a4 as c}from"./entry.eb414622.js";const s={name:"Home"};function r(o,_,p,m,u,f){const e=c;return n(),a(e,{key:o.$route.fullPath})}const $=t(s,[["render",r]]);export{$ as default};
