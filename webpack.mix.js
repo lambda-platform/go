@@ -125,9 +125,9 @@ const compileModules = () => {
         // .js(`${lambdaModule}/moqup/index.js`, `public/assets/lambda/js/moqup.js`).vue()
         // .sass(`${lambdaModule}/moqup/scss/style.scss`, `public/assets/lambda/css/moqup.css`)
         //
-        // .js(`${lambdaModule}/chart/index.js`, "public/assets/lambda/js/chart.js").vue()
-        // .js(`${lambdaModule}/chart/index-builder.js`, `public/assets/lambda/js/chart-builder.js`).vue()
-        // .sass(`${lambdaModule}/chart/scss/style.scss`, "public/assets/lambda/css/chart.css")
+        .js(`${lambdaModule}/chart/index.js`, "public/assets/lambda/js/chart.js").vue()
+        .js(`${lambdaModule}/chart/index-builder.js`, `public/assets/lambda/js/chart-builder.js`).vue()
+        .sass(`${lambdaModule}/chart/scss/style.scss`, "public/assets/lambda/css/chart.css")
 
         // .js(`${lambdaModule}/notify/index.js`, `public/assets/lambda/js/notification.js`).vue()
 
