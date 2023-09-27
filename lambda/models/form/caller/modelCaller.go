@@ -28,18 +28,6 @@ func GetMODEL(schema_id string) dataform.Dataform {
 	case "user_password":
 		return form.UsersDataform()
 
-	case "1":
-		return form.Category1Dataform()
-
-	case "4":
-		return form.Product4Dataform()
-
-	case "7":
-		return form.Customer7Dataform()
-
-	case "10":
-		return form.CustomerOrder10Dataform()
-
 	}
 	return dataform.Dataform{}
 
