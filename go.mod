@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/gofiber/fiber/v2 v2.49.2
-	github.com/lambda-platform/lambda v0.7.24
+	github.com/lambda-platform/lambda v0.7.32
 	github.com/thedevsaddam/govalidator v1.9.10
 	gorm.io/gorm v1.25.4
 )
