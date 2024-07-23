@@ -8,8 +8,11 @@ import (
 func Api(e *fiber.App) {
 	a := e.Group("/api")
 	a.Get("/users", controllers.Users)
-	a.Get("/send-notification", controllers.SendNotification)
+	//a.Get("/send-notification", controllers.SendNotification)
 	a.Post("/grid-form-example", controllers.GridFromExample)
 	//a.Get("/read-icons", controllers.ReadIcons)
+
+	a.Get("/news", controllers.News)
+	a.Get("/News-Type/:id", controllers.NewsTypeID)
 
 }
