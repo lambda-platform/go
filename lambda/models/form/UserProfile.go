@@ -19,8 +19,9 @@ func UserProfile() dataform.Dataform {
 		Table:    "users",
 		Model:    new(formModels.UserProfile),
 		FieldTypes: map[string]string{
-			"id":              "",
-			"login":           "",
+			"id":    "",
+			"login": "",
+
 			"status":          "",
 			"role":            "",
 			"uuid":            "",

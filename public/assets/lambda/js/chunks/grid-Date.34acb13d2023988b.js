@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[2416],{91245:(s,n,e)=>{e.r(n),e.d(n,{default:()=>a});var l=e(66474);const u=e.n(l)().extend();const a=(0,e(14486).A)(u,(function(){var s=this,n=s._self._c;s._self._setupProxy;return n("span",[s._v("\n    "+s._s(null!=s.params.value?s.params.value.substr(0,10):"")+"\n")])}),[],!1,null,null,null).exports}}]);

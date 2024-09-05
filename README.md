@@ -1,6 +1,6 @@
 ## Lambda Starter App
 
-`Lambda Go Starter App` төсөл үүсгэхийн өмнө `^Go 1.16` хэл  болон [өгөгдлийн сан](https://lambda-platform.github.io/docs/installation#өгөгдлийн-сан) суулгасан байх хэрэгтэй. Хэрвээ суулгаагүй бол [Go хэлийг татаж авна уу](https://go.dev/dl/). `Go 1.16` ба түүнээс дээш байх шаардлагатай.
+`Lambda Go Starter App` төсөл үүсгэхийн өмнө `^Go 1.22` хэл  болон [өгөгдлийн сан](https://lambda-platform.github.io/docs/installation#өгөгдлийн-сан) суулгасан байх хэрэгтэй. Хэрвээ суулгаагүй бол [Go хэлийг татаж авна уу](https://go.dev/dl/). `Go 1.22` ба түүнээс дээш байх шаардлагатай.
 
 `Lambda Go Starter App`-г GitHub Repository-с clone хийж татаж авна.
   ```bash 
