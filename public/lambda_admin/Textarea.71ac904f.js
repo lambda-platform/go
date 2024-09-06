@@ -1,1 +1,0 @@
-import{_ as a,r as l,o as m,k as s}from"./entry.44501f88.js";const p={props:["model","label"]};function d(e,o,n,c,u,f){const r=l("Textarea",!0);return m(),s(r,{modelValue:e.$props.model.form[n.model.component],"onUpdate:modelValue":o[0]||(o[0]=t=>e.$props.model.form[n.model.component]=t)},null,8,["modelValue"])}const i=a(p,[["render",d]]);export{i as default};
