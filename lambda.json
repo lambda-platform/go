@@ -75,7 +75,7 @@
             "forgotDescription": "И-мэйл хаягаа оруулаад нууц үг шинэчлэнэ үү",
             "sendPasswordResetCode": "Нууц үг солих код и-мэйлээр авах",
             "passwordConfirm": "Нууц үг баталгаажуулах",
-            "userNotFound": "Хэрэгэлч олдсонгүй !!!",
+            "userNotFound": "Хэрэглэгч олдсонгүй !!!",
             "codeSentError": "Нууц үг шинэчлэх код илгээх үед алдаа гарлаа!",
             "passwordReset": "НУУЦ ҮГ ШИНЭЧЛЭХ",
             "passwordResetCode": "Нууц үгээ сэргээх код",
