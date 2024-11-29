@@ -1,15 +1,14 @@
 package controllers
 
 import (
-	"github.com/gofiber/fiber/v2"
-	"github.com/lambda-platform/lambda/DB"
-	"lambda/app/models"
+    "github.com/gofiber/fiber/v2"
+    "github.com/lambda-platform/lambda/DB"
+    "lambda/app/models"
 )
 
-func Users(c *fiber.Ctx) error {
+func News(c *fiber.Ctx) error {
+    var news []models.News
+    DB.DB.Find(&news)
 
-	users := []models.Users{}
-	DB.DB.Find(&users)
-
-	return c.JSON(users)
+    return c.JSON(news)
 }
