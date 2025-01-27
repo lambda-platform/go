@@ -10,7 +10,7 @@ require (
 	github.com/khankhulgun/common v0.0.2
 	github.com/khankhulgun/khanmap v0.0.30
 	github.com/khankhulgun/workflow v0.0.3
-	github.com/lambda-platform/lambda v0.8.42
+	github.com/lambda-platform/lambda v0.8.43
 	github.com/thedevsaddam/govalidator v1.9.10
 	github.com/valyala/fasthttp v1.51.0
 	gorm.io/gorm v1.25.5
@@ -88,7 +88,7 @@ require (
 	gorm.io/driver/sqlserver v1.5.2 // indirect
 )
 
-//replace github.com/lambda-platform/lambda v0.8.41 => ../../../lambda-fiber
+//replace github.com/lambda-platform/lambda v0.8.42 => ../../../lambda-fiber
 
 //replace github.com/khankhulgun/khanmap v0.0.1 => ../../khan-map
 //replace github.com/khankhulgun/workflow v0.0.2 => ../../../../ActiveProjects/workflow

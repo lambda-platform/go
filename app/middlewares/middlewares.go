@@ -24,7 +24,7 @@ func Set(app *fiber.App) {
     app.Use(cors.New(cors.Config{
         AllowCredentials: true,
         AllowHeaders:     "Origin, Content-Type, Accept, X-Requested-With, x-csrf-token, Accept-Language, Content-Length, Authorization, Accept-Encoding, Connection",
-        AllowOriginsFunc: func(origin string) bool { return true },
+        AllowOriginsFunc: nil,
         AllowOrigins:     "http://localhost:3000, http://127.0.0.1:3000, http://localhost:8080, http://127.0.0.1:8080",
         AllowMethods: strings.Join([]string{
             fiber.MethodGet,
