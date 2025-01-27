@@ -7,5 +7,5 @@ import (
 
 func Api(e *fiber.App) {
 	a := e.Group("/api")
-	a.Get("/users", controllers.Users)
+	a.Get("/news", controllers.News)
 }
