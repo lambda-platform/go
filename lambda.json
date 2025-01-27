@@ -2,10 +2,11 @@
     "schema_load_mode": "auto",
     "project_key": "",
     "theme": "aside",
-    "domain": "http://localhost:3000",
+    "domain": "localhost",
+    "cookie_domain": "",
     "title": "Lambda Platform",
     "subTitle": "Automated Workforce",
-    "copyright": "Lambda Platform© 2024",
+    "copyright": "Lambda Platform© 2025",
     "favicon": "/mnca/images/favicon.png",
     "bg": "/assets/lambda/images/bg.png",
     "logo": "/assets/lambda/images/logo.svg",
@@ -44,6 +45,30 @@
         },
         {
             "element": "inputWithIcon"
+        },
+        {
+            "element": "Point"
+        },
+        {
+            "element": "Point3D"
+        },
+        {
+            "element": "Polygon"
+        },
+        {
+            "element": "MultiPolygon"
+        },
+        {
+            "element": "Line"
+        },
+        {
+            "element": "MultiLine"
+        },
+        {
+            "element": "workflow"
+        },
+        {
+            "element": "process_status"
         }
     ],
     "data_grid_custom_elements": [
@@ -55,6 +80,9 @@
         },
         {
             "element": "callForm"
+        },
+        {
+            "element": "process_status"
         }
     ],
     "password_reset_time_out": 0,
@@ -118,17 +146,17 @@
     },
     "notify": {
         "firebaseConfig": {
-            "apiKey": "",
-            "publicKey": "",
-            "authDomain": "",
-            "databaseURL": "",
-            "projectId": "",
-            "storageBucket": "",
-            "messagingSenderId": "",
-            "appId": "",
-            "measurementId": ""
+            "apiKey": "AIzaSyDZVppS8vjr61Gxr1cn7NUytJD01bOJ-dQ",
+            "publicKey": "BIIZT_mp2JMSL5MaLzpwE4p_bX618foBLKuCSBeSOaeKaxXVl4Tv5U6xSGXKIdADsGa4IvSkkdnRncA49GKZoQY",
+            "authDomain": "miat-chat.firebaseapp.com",
+            "databaseURL": "https://miat-chat-default-rtdb.asia-southeast1.firebasedatabase.app",
+            "projectId": "miat-chat",
+            "storageBucket": "miat-chat.appspot.com",
+            "messagingSenderId": "155525398252",
+            "appId": "1:155525398252:web:32def6eb623d785f78efc9",
+            "measurementId": "G-SRWB20XQ60"
         },
-        "serverKey": "",
+        "serverKey": "./firebase-key.json",
         "sound": "/assets/lambda/notification.mp3",
         "icon": ""
     },

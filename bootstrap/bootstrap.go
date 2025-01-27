@@ -27,6 +27,9 @@ import (
 		|----------------------------------------------
 	*/
 
+	"github.com/khankhulgun/common"
+	"github.com/khankhulgun/khanmap"
+	"github.com/khankhulgun/workflow"
 	"github.com/lambda-platform/lambda/moqup"
 	"lambda/routes"
 )
@@ -78,6 +81,9 @@ func Set() *lambda.Lambda {
 	*/
 	routes.Api(Lambda.App)
 	routes.Web(Lambda.App)
+	khanmap.Set(Lambda.App)
+	workflow.Set(Lambda.App)
+	common.Set(Lambda.App)
 
 	return Lambda
 }

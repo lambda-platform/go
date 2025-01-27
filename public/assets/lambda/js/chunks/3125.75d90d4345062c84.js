@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[3125],{23125:(e,n,t)=>{t.r(n),t.d(n,{default:()=>u});const s=(0,t(66474).defineComponent)({__name:"index",setup:function(e){return{__sfc:!0}}});const u=(0,t(14486).A)(s,(function(){var e=this._self._c;this._self._setupProxy;return e("div",[e("router-view")],1)}),[],!1,null,null,null).exports}}]);
