@@ -1,6 +1,14 @@
 const path = require("path");
 const mix = require('laravel-mix');
 const fs = require('fs');
+
+// Ensure directories exist
+const ensureDirectoryExists = (dir) => {
+    if (!fs.existsSync(dir)) {
+        fs.mkdirSync(dir, { recursive: true });
+    }
+};
+
 if (mix.inProduction()) {
 
     const fileName = './public/mix-manifest.json';
@@ -18,13 +26,8 @@ const lambdaPlatform = `${lambdaRoot}/src`;
 const dataform_custom = "assets/dataform_custom";
 const datagrid_custom = "assets/datagrid_custom";
 
-if (!fs.existsSync(dataform_custom)) {
-    fs.mkdirSync(dataform_custom);
-}
-
-if (!fs.existsSync(datagrid_custom)) {
-    fs.mkdirSync(datagrid_custom);
-}
+ensureDirectoryExists(dataform_custom);
+ensureDirectoryExists(datagrid_custom);
 
 mix.webpackConfig({
     output: {
