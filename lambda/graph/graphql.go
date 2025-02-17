@@ -2,6 +2,7 @@ package graph
 
 import (
 	"context"
+	"github.com/99designs/gqlgen/graphql"
 	"github.com/99designs/gqlgen/graphql/handler"
 	"github.com/99designs/gqlgen/graphql/handler/extension"
 	"github.com/99designs/gqlgen/graphql/handler/lru"
@@ -9,10 +10,10 @@ import (
 	"github.com/99designs/gqlgen/graphql/playground"
 	"github.com/go-redis/redis"
 	"github.com/gofiber/fiber/v2"
-	"github.com/gorilla/websocket"
 	"github.com/lambda-platform/lambda/config"
 	lambdaPlayground "github.com/lambda-platform/lambda/graphql/playground"
 	"github.com/valyala/fasthttp/fasthttpadaptor"
+	"github.com/vektah/gqlparser/v2/ast"
 	"lambda/lambda/graph/generated"
 	"net/http"
 	"sync"
@@ -39,18 +40,11 @@ func Set(e *fiber.App) {
 	graphqlHandler.AddTransport(transport.GET{})
 	graphqlHandler.AddTransport(transport.POST{})
 	graphqlHandler.AddTransport(transport.MultipartForm{})
-	graphqlHandler.SetQueryCache(lru.New(1000))
+	cache := &graphql.MapCache[*ast.QueryDocument]{}
+	graphqlHandler.SetQueryCache(cache)
 
 	graphqlHandler.Use(extension.AutomaticPersistedQuery{
-		Cache: lru.New(100),
-	})
-	graphqlHandler.AddTransport(transport.Websocket{
-		KeepAlivePingInterval: 10 * time.Second,
-		Upgrader: websocket.Upgrader{
-			CheckOrigin: func(r *http.Request) bool {
-				return true
-			},
-		},
+		Cache: lru.New[string](100),
 	})
 
 	e.Post("/query", func(c *fiber.Ctx) error {
