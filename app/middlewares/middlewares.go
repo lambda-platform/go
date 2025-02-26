@@ -19,7 +19,6 @@ func Set(app *fiber.App) {
 		CrossOriginEmbedderPolicy: "unsafe-none",
 		CrossOriginOpenerPolicy:   "unsafe-none",
 		CrossOriginResourcePolicy: "unsafe-none",
-		ReferrerPolicy:            "strict-origin-when-cross-origin",
 	}))
 	app.Use(recover.New())
 	app.Use(cors.New(cors.Config{
