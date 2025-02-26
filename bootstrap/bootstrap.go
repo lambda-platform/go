@@ -5,7 +5,6 @@ import (
     "github.com/lambda-platform/lambda/chart"
     "github.com/lambda-platform/lambda/config"
     "github.com/lambda-platform/lambda/crudlogger"
-    lambdaMiddlewares "github.com/lambda-platform/lambda/middlewares"
     "github.com/lambda-platform/lambda/notify"
     "lambda/app/middlewares"
     "lambda/lambda/graph"
@@ -45,7 +44,6 @@ func Set() *lambda.Lambda {
         ModuleName: "lambda",
     })
     middlewares.Set(Lambda.App)
-    lambdaMiddlewares.Set(Lambda.App)
     KrudMiddleWares := []fiber.Handler{}
 
     if config.LambdaConfig.Notify.FirebaseConfig.APIKey != "" && config.LambdaConfig.Notify.FirebaseConfig.AppID != "" {
