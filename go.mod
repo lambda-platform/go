@@ -10,7 +10,7 @@ require (
 	github.com/khankhulgun/common v0.0.2
 	github.com/khankhulgun/khanmap v0.0.33
 	github.com/khankhulgun/workflow v0.0.3
-	github.com/lambda-platform/lambda v0.8.74
+	github.com/lambda-platform/lambda v0.8.81
 	github.com/thedevsaddam/govalidator v1.9.10
 	github.com/valyala/fasthttp v1.51.0
 	gorm.io/gorm v1.25.5
