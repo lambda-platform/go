@@ -1,6 +1,6 @@
 module lambda
 
-go 1.24.0
+go 1.24.4
 
 require (
 	github.com/99designs/gqlgen v0.17.66
@@ -8,9 +8,9 @@ require (
 	github.com/golang-jwt/jwt/v5 v5.0.0 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/khankhulgun/common v0.0.2
-	github.com/khankhulgun/khanmap v0.0.33
-	github.com/khankhulgun/workflow v0.0.3
-	github.com/lambda-platform/lambda v0.8.81
+	github.com/khankhulgun/khanmap v0.0.38
+	github.com/khankhulgun/workflow v0.0.10
+	github.com/lambda-platform/lambda v0.8.87
 	github.com/thedevsaddam/govalidator v1.9.10
 	github.com/valyala/fasthttp v1.51.0
 	gorm.io/gorm v1.25.5
@@ -37,7 +37,6 @@ require (
 	github.com/gofiber/template v1.8.2 // indirect
 	github.com/gofiber/template/html/v2 v2.0.5 // indirect
 	github.com/gofiber/utils v1.1.0 // indirect
-	github.com/golang-jwt/jwt v3.2.2+incompatible // indirect
 	github.com/golang-sql/civil v0.0.0-20220223132316-b832511892a9 // indirect
 	github.com/golang-sql/sqlexp v0.1.0 // indirect
 	github.com/golang/glog v1.2.0 // indirect
@@ -77,14 +76,14 @@ require (
 	github.com/tealeg/xlsx/v3 v3.3.12 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/tcplisten v1.0.0 // indirect
-	golang.org/x/crypto v0.33.0 // indirect
-	golang.org/x/image v0.22.0 // indirect
+	golang.org/x/crypto v0.38.0 // indirect
+	golang.org/x/image v0.25.0 // indirect
 	golang.org/x/mod v0.23.0 // indirect
-	golang.org/x/net v0.35.0 // indirect
+	golang.org/x/net v0.40.0 // indirect
 	golang.org/x/oauth2 v0.21.0 // indirect
-	golang.org/x/sync v0.11.0 // indirect
-	golang.org/x/sys v0.30.0 // indirect
-	golang.org/x/text v0.22.0 // indirect
+	golang.org/x/sync v0.14.0 // indirect
+	golang.org/x/sys v0.33.0 // indirect
+	golang.org/x/text v0.25.0 // indirect
 	golang.org/x/tools v0.30.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240604185151-ef581f913117 // indirect
 	google.golang.org/grpc v1.64.0 // indirect
