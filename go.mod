@@ -8,9 +8,9 @@ require (
 	github.com/golang-jwt/jwt/v5 v5.0.0 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/khankhulgun/common v0.0.2
-	github.com/khankhulgun/khanmap v0.0.39
+	github.com/khankhulgun/khanmap v0.0.45
 	github.com/khankhulgun/workflow v0.0.10
-	github.com/lambda-platform/lambda v0.8.87
+	github.com/lambda-platform/lambda v0.8.91
 	github.com/thedevsaddam/govalidator v1.9.10
 	github.com/valyala/fasthttp v1.51.0
 	gorm.io/gorm v1.25.5
