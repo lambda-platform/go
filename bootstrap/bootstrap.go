@@ -57,7 +57,7 @@ func Set() *lambda.Lambda {
         KrudMiddleWares = append(KrudMiddleWares, crudlogger.MW(gridCaller.GetMODEL, caller.GetMODEL))
     }
     agent.Set(Lambda.App)
-    krud.Set(Lambda.App, gridCaller.GetMODEL, caller.GetMODEL, KrudMiddleWares, true, []string{})
+    krud.Set(Lambda.App, gridCaller.GetMODEL, caller.GetMODEL, KrudMiddleWares, true, []string{}, nil)
 
     exportImport.Set(Lambda.App)
     /*
@@ -66,7 +66,7 @@ func Set() *lambda.Lambda {
     	|----------------------------------------------
     */
     graph.Set(Lambda.App)
-    puzzle.Set(Lambda.App, Lambda.ModuleName, gridCaller.GetMODEL, false, true, []string{})
+    puzzle.Set(Lambda.App, Lambda.ModuleName, gridCaller.GetMODEL, false, true, []string{}, nil)
     chart.Set(Lambda.App)
     moqup.Set(Lambda.App)
 
