@@ -1,15 +1,16 @@
 package bootstrap
 
 import (
+    "lambda/app/middlewares"
+    "lambda/lambda/graph"
+    "lambda/lambda/models/form/caller"
+    gridCaller "lambda/lambda/models/grid/caller"
+
     "github.com/gofiber/fiber/v2"
     "github.com/lambda-platform/lambda/chart"
     "github.com/lambda-platform/lambda/config"
     "github.com/lambda-platform/lambda/crudlogger"
     "github.com/lambda-platform/lambda/notify"
-    "lambda/app/middlewares"
-    "lambda/lambda/graph"
-    "lambda/lambda/models/form/caller"
-    gridCaller "lambda/lambda/models/grid/caller"
     /*
     	|----------------------------------------------
     	| Generated Models
@@ -27,11 +28,12 @@ import (
     	|----------------------------------------------
     */
 
+    "lambda/routes"
+
     "github.com/khankhulgun/common"
     "github.com/khankhulgun/khanmap"
     "github.com/khankhulgun/workflow"
     "github.com/lambda-platform/lambda/moqup"
-    "lambda/routes"
 )
 
 func Set() *lambda.Lambda {
@@ -55,7 +57,7 @@ func Set() *lambda.Lambda {
         KrudMiddleWares = append(KrudMiddleWares, crudlogger.MW(gridCaller.GetMODEL, caller.GetMODEL))
     }
     agent.Set(Lambda.App)
-    krud.Set(Lambda.App, gridCaller.GetMODEL, caller.GetMODEL, KrudMiddleWares, true)
+    krud.Set(Lambda.App, gridCaller.GetMODEL, caller.GetMODEL, KrudMiddleWares, true, []string{})
 
     exportImport.Set(Lambda.App)
     /*
@@ -64,7 +66,7 @@ func Set() *lambda.Lambda {
     	|----------------------------------------------
     */
     graph.Set(Lambda.App)
-    puzzle.Set(Lambda.App, Lambda.ModuleName, gridCaller.GetMODEL, false, true)
+    puzzle.Set(Lambda.App, Lambda.ModuleName, gridCaller.GetMODEL, false, true, []string{})
     chart.Set(Lambda.App)
     moqup.Set(Lambda.App)
 
