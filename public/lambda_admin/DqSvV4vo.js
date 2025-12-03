@@ -1,1 +1,0 @@
-import{_ as e,j as r,r as n}from"./BGcy_aHF.js";import{J as s,F as a}from"./DXHvmmg6.js";import"./BYTvHWBW.js";import"./CYxtEuKL.js";const p={};function _(o,c,m,f,u,i){const t=n;return a(),s(t,{key:(o._.provides[r]||o.$route).fullPath})}const x=e(p,[["render",_]]);export{x as default};

@@ -1,0 +1,1 @@
+import{_ as t}from"./3ncfVO38.js";import{E as r,F as o,G as s}from"./DXHvmmg6.js";import"./BYTvHWBW.js";import"./CYxtEuKL.js";const a={};function n(p,e,c,l,i,m){return o(),r("div",null,e[0]||(e[0]=[s("h3",null,"This element deprecated if want same element please use Grid Selector",-1)]))}const $=t(a,[["render",n]]);export{$ as default};

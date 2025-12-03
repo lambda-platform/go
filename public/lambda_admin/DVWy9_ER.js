@@ -1,1 +1,0 @@
-import{_ as o}from"./BGcy_aHF.js";import{D as e,J as n,F as r}from"./DXHvmmg6.js";import"./BYTvHWBW.js";import"./CYxtEuKL.js";const p={};function s(c,a,_,m,u,f){const t=e("Input",!0);return r(),n(t,{type:"text"})}const $=o(p,[["render",s]]);export{$ as default};

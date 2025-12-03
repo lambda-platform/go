@@ -1,1 +1,0 @@
-import{_ as o}from"./_xPJSblM.js";import{E as r,F as t,H as e}from"./DXHvmmg6.js";import"./BGcy_aHF.js";import"./BYTvHWBW.js";import"./CYxtEuKL.js";import"./rD7lcgUv.js";import"./BkF5bGtC.js";const u={__name:"workflow",setup(m){return(a,p)=>(t(),r("div",null,[e(o)]))}};export{u as default};
