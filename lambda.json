@@ -1,0 +1,181 @@
+{
+    "schema_load_mode": "auto",
+    "project_key": "",
+    "theme": "aside",
+    "domain": "localhost",
+    "cookie_domain": "",
+    "title": "Lambda Platform",
+    "subTitle": "Automated Workforce",
+    "copyright": "Lambda Platform© 2025",
+    "favicon": "/mnca/images/favicon.png",
+    "bg": "/assets/lambda/images/bg.png",
+    "logo": "/assets/lambda/images/logo.svg",
+    "logo_dark": "/assets/lambda/images/logo_dark.svg",
+    "logo_squire": "/assets/lambda/images/logo.svg",
+    "logo_squire_dark": "/assets/lambda/images/logo_dark.svg",
+    "logoText": "",
+    "super_url": "/lambda/puzzle",
+    "app_url": "/admin",
+    "has_language": false,
+    "withCrudLog": false,
+    "krud_public": false,
+    "languages": [
+        {
+            "label": "Moнгол",
+            "code": "mn_MN"
+        },
+        {
+            "label": "English",
+            "code": "en_US"
+        }
+    ],
+    "default_language": "mn_MN",
+    "role-redirects": [
+        {
+            "role_id": 1,
+            "url": "/lambda/puzzle"
+        }
+    ],
+    "user_data_fields": [
+        "id"
+    ],
+    "data_form_custom_elements": [
+        {
+            "element": "datetimeAutoFill"
+        },
+        {
+            "element": "inputWithIcon"
+        },
+        {
+            "element": "Point"
+        },
+        {
+            "element": "Point3D"
+        },
+        {
+            "element": "Polygon"
+        },
+        {
+            "element": "MultiPolygon"
+        },
+        {
+            "element": "Line"
+        },
+        {
+            "element": "MultiLine"
+        },
+        {
+            "element": "workflow"
+        },
+        {
+            "element": "process_status"
+        },
+        {
+            "element": "mapserver_layer"
+        }
+    ],
+    "data_grid_custom_elements": [
+        {
+            "element": "coloredCell"
+        },
+        {
+            "element": "popup"
+        },
+        {
+            "element": "callForm"
+        },
+        {
+            "element": "process_status"
+        }
+    ],
+    "password_reset_time_out": 0,
+    "static_words": {
+        "mn_MN": {
+            "title": "Lambda Platform",
+            "subtitle": "Програм хамгамж бүтээх ажлыг автоматжуулагч",
+            "login": "Нэвтрэх",
+            "forgot": "Нууц үгээ мартсан?",
+            "remember": "Энэ компьютерт сануулах",
+            "loginTitle": "СИСТЕМД НЭВТРЭХ",
+            "username": "Нэвтрэх нэр",
+            "email": "И-мэйл",
+            "password": "Нууц үг",
+            "loginSuccess": "Амжилттай нэвтэрлээ. Түр хүлээнэ үү!",
+            "loginError": "Уучлаарай, нэвтрэх үед алдаа гарлаа!!",
+            "emailRequired": "И-мэйл хаяг аа оруулна уу",
+            "forgotDescription": "И-мэйл хаягаа оруулаад нууц үг шинэчлэнэ үү",
+            "sendPasswordResetCode": "Нууц үг солих код и-мэйлээр авах",
+            "passwordConfirm": "Нууц үг баталгаажуулах",
+            "userNotFound": "Хэрэглэгч олдсонгүй !!!",
+            "codeSentError": "Нууц үг шинэчлэх код илгээх үед алдаа гарлаа!",
+            "passwordReset": "НУУЦ ҮГ ШИНЭЧЛЭХ",
+            "passwordResetCode": "Нууц үгээ сэргээх код",
+            "passwordResetCodeSent": "Нууц үг шинэчлэх код амжилттай илгээгдлээ !",
+            "passwordResetCodeRequired": "Нууц үг солих код  оруулаагүй байна !!!",
+            "passwordResetSuccess": "Нууц үг амжилттай шинэчлэгдлээ !",
+            "passwordConfirmError": "Нууц үг баталгаажуулалт таарсангүй !!!",
+            "passwordResetCodeIncorrect": "Нууц үг сэргээх код буруу байна !!!",
+            "passwordResetCodeTimeout": "Нууц үг сэргээх кодны хугацаа дууссан !!!",
+            "noReply": "Энэхүү и-мэйл нь автоматаар илгээгдсэн учир хариу бичих шаардлагагүй."
+        },
+        "en_US": {
+            "title": "Lambda Platform",
+            "subtitle": "Automated Workforce",
+            "login": "Login",
+            "forgot": "Forgot password?",
+            "remember": "Remember this computer",
+            "loginTitle": "SIGN IN TO SYSTEM",
+            "username": "Username",
+            "email": "Email",
+            "password": "Password",
+            "loginSuccess": "You have successfully logged in. Please wait!",
+            "loginError": "Sorry, error occurred while logging in!!",
+            "emailRequired": "Please enter email address",
+            "forgotDescription": "Enter your email address to reset your password",
+            "sendPasswordResetCode": "Send password reset code to email",
+            "passwordConfirm": "Confirm password",
+            "userNotFound": "User not found!!!",
+            "codeSentError": "Error occurred while sending password reset code!",
+            "passwordReset": "RESET PASSWORD",
+            "passwordResetCode": "Password reset code",
+            "passwordResetCodeSent": "Password reset code sent successfully!",
+            "passwordResetCodeRequired": "Please enter password reset code!!!",
+            "passwordResetSuccess": "Password has been successfully reset!",
+            "passwordConfirmError": "Password confirmation failed!!!",
+            "passwordResetCodeIncorrect": "Incorrect password reset code!!!",
+            "passwordResetCodeTimeout": "Password reset code has expired!!!",
+            "noReply": "This email was sent automatically, so no response is required."
+        }
+    },
+    "notify": {
+        "firebaseConfig": {
+            "apiKey": "AIzaSyDZVppS8vjr61Gxr1cn7NUytJD01bOJ-dQ",
+            "publicKey": "BIIZT_mp2JMSL5MaLzpwE4p_bX618foBLKuCSBeSOaeKaxXVl4Tv5U6xSGXKIdADsGa4IvSkkdnRncA49GKZoQY",
+            "authDomain": "miat-chat.firebaseapp.com",
+            "databaseURL": "https://miat-chat-default-rtdb.asia-southeast1.firebasedatabase.app",
+            "projectId": "miat-chat",
+            "storageBucket": "miat-chat.appspot.com",
+            "messagingSenderId": "155525398252",
+            "appId": "1:155525398252:web:32def6eb623d785f78efc9",
+            "measurementId": "G-SRWB20XQ60"
+        },
+        "serverKey": "./firebase-key.json",
+        "sound": "/assets/lambda/notification.mp3",
+        "icon": ""
+    },
+    "custom_icons": [
+        {
+            "title": "Custom icon example",
+            "svgs": [
+                {
+                    "name": "Branch",
+                    "url": "/assets/icons/organization/branch.svg"
+                },
+                {
+                    "name": "Structure",
+                    "url": "/assets/icons/organization/structure.svg"
+                }
+            ]
+        }
+    ]
+}

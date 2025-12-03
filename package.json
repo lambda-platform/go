@@ -1,0 +1,52 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "npm run development",
+    "ldev": "cross-env process.env.section=lambda npm run development",
+    "development": "mix",
+    "start": "mix watch",
+    "lstart": "cross-env process.env.section=lambda mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "lhot": "cross-env process.env.section=lambda mix watch --hot",
+    "prod": "npm run rm && npm run production && npm run lproduction",
+    "rm": "rm -f ./public/mix-manifest.json 2&> /dev/null",
+    "production": "mix --production",
+    "lproduction": "cross-env process.env.section=lambda mix --production"
+  },
+  "devDependencies": {
+    "laravel-mix": "^6.0.27",
+    "laravel-mix-merge-manifest": "^2.0.0",
+    "lodash": "^4.17.19",
+    "postcss": "^8.1.14",
+    "sass": "^1.32.7",
+    "sass-loader": "8.*",
+    "sw-precache-webpack-plugin": "^1.0.0",
+    "tslib": "^2.4.0",
+    "vue-loader": "^15.9.5",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-vue2": "^3.0.1",
+    "@lambda-platform/lambda-builder": "3.2.12",
+    "@tinymce/tinymce-vue": "^5.0.0",
+    "apollo-cache-inmemory": "^1.6.6",
+    "apollo-client": "^2.6.10",
+    "apollo-link-http": "^1.5.17",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.1.3",
+    "ckeditor5-custom-build": "^0.0.6",
+    "graphql": "^16.2.0",
+    "graphql-tag": "^2.12.6",
+    "leaflet.fullscreen": "^2.4.0",
+    "portal-vue": "^2.1.7",
+    "vue": "^2.6.12",
+    "vue-apollo": "^3.1.0",
+    "vue-axios": "^3.4.1",
+    "vue-inline-svg": "^2.1.0",
+    "vue-input-tag": "^2.0.7",
+    "vue-json-editor": "^1.4.3",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2"
+  }
+}

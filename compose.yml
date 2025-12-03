@@ -1,0 +1,69 @@
+
+version: '3.9'
+services:
+  traefik:
+    image: traefik:v3.0
+    container_name: traefik-server
+    restart: always
+    command:
+      - --providers.docker
+      - --entrypoints.web.address=:80
+      - --entrypoints.websecure.address=:443
+      - --entrypoints.dashboard.address=:8083
+      - --certificatesresolvers.myresolver.acme.httpchallenge=true
+      - --certificatesresolvers.myresolver.acme.httpchallenge.entrypoint=web
+      - --certificatesresolvers.myresolver.acme.email=munkaltai@gmail.com
+      - --certificatesresolvers.myresolver.acme.storage=/letsencrypt/acme.json
+      - --api.dashboard=true
+      - --api.insecure=true
+    ports:
+      - "80:80"
+      - "443:443"
+      - "8083:8083"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./letsencrypt:/letsencrypt
+    labels:
+      - "traefik.docker.network=traefik-net"
+      - "traefik.http.middlewares.traefik_https-redirect.redirectscheme.scheme=https"
+      - "traefik.http.middlewares.traefik_https-redirect.redirectscheme.permanent=true"
+      - "traefik.http.routers.traefik.middlewares=traefik_compress"
+      - "traefik.http.middlewares.traefik_compress.compress=true"
+  app:
+#    build:
+#      context: .
+    image: ghcr.io/lambda-platform/go:latest
+    container_name: lambda
+    restart: always
+    ports:
+      - "8080:8080"
+    environment:
+      APP_PORT: 8080
+      DB_CONNECTION: postgres
+      DB_HOST: 127.0.0.1
+      DB_PORT: 5432
+      DB_DATABASE: lambda
+      DB_USERNAME: postgres
+      DB_PASSWORD: ""
+      DB_DEBUG: true
+      GRAPHQL_DEBUG: true
+      JWT_SECRET: BIzaSyBUEDlwdKQ0AZOnHOkZv2MIw0GlRjql6V4
+      JWT_TTL: 7200
+      IMAGE_MAX_SIZE: 100000000
+      TZ: Asia/Ulaanbaatar
+    volumes:
+      #      - ./public/uploaded:/app/public/uploaded
+      - ./public:/app/public
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.whoami.rule=Host(`lambda-platform.github.io`)"
+      - "traefik.http.routers.whoami.entrypoints=websecure"
+      - "traefik.http.routers.whoami.tls.certresolver=myresolver"
+      - "traefik.http.routers.web-router.rule=Host(`lambda-platform.github.io`)"
+      - "traefik.http.services.web-service.loadbalancer.server.port=8080"
+
+networks:
+  traefik-net:
+    driver: overlay
+    ipam:
+      driver: bridge

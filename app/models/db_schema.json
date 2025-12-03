@@ -1,0 +1,530 @@
+{
+ "tableList": [
+  "category",
+  "friends",
+  "item",
+  "roles",
+  "users"
+ ],
+ "viewList": [
+  "items"
+ ],
+ "tableMeta": {
+  "category": [
+   {
+    "model": "id",
+    "title": "id",
+    "dbType": "int",
+    "table": "category",
+    "key": "PRI",
+    "extra": "",
+    "nullable": "NO"
+   },
+   {
+    "model": "name",
+    "title": "name",
+    "dbType": "varchar",
+    "table": "category",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   },
+   {
+    "model": "cat_name_en",
+    "title": "cat_name_en",
+    "dbType": "varchar",
+    "table": "category",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   },
+   {
+    "model": "cat_ru",
+    "title": "cat_ru",
+    "dbType": "varchar",
+    "table": "category",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   },
+   {
+    "model": "cat_kr",
+    "title": "cat_kr",
+    "dbType": "varchar",
+    "table": "category",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   },
+   {
+    "model": "cat_jp",
+    "title": "cat_jp",
+    "dbType": "varchar",
+    "table": "category",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   },
+   {
+    "model": "desc",
+    "title": "desc",
+    "dbType": "varchar",
+    "table": "category",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   },
+   {
+    "model": "dd",
+    "title": "dd",
+    "dbType": "varchar",
+    "table": "category",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   },
+   {
+    "model": "aaa",
+    "title": "aaa",
+    "dbType": "varchar",
+    "table": "category",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   }
+  ],
+  "friends": [
+   {
+    "model": "id",
+    "title": "id",
+    "dbType": "int",
+    "table": "friends",
+    "key": "PRI",
+    "extra": "",
+    "nullable": "NO"
+   },
+   {
+    "model": "name",
+    "title": "name",
+    "dbType": "varchar",
+    "table": "friends",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   },
+   {
+    "model": "phone",
+    "title": "phone",
+    "dbType": "varchar",
+    "table": "friends",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   }
+  ],
+  "item": [
+   {
+    "model": "id",
+    "title": "id",
+    "dbType": "int",
+    "table": "item",
+    "key": "PRI",
+    "extra": "",
+    "nullable": "NO"
+   },
+   {
+    "model": "cat_id",
+    "title": "cat_id",
+    "dbType": "int",
+    "table": "item",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   },
+   {
+    "model": "title",
+    "title": "title",
+    "dbType": "varchar",
+    "table": "item",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   },
+   {
+    "model": "release_date",
+    "title": "release_date",
+    "dbType": "date",
+    "table": "item",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   },
+   {
+    "model": "qty",
+    "title": "qty",
+    "dbType": "int",
+    "table": "item",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   }
+  ],
+  "items": [
+   {
+    "model": "cat_id",
+    "title": "cat_id",
+    "dbType": "int",
+    "table": "items",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   },
+   {
+    "model": "id",
+    "title": "id",
+    "dbType": "int",
+    "table": "items",
+    "key": "",
+    "extra": "",
+    "nullable": "NO"
+   },
+   {
+    "model": "release_date",
+    "title": "release_date",
+    "dbType": "date",
+    "table": "items",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   },
+   {
+    "model": "title",
+    "title": "title",
+    "dbType": "varchar",
+    "table": "items",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   },
+   {
+    "model": "qty",
+    "title": "qty",
+    "dbType": "int",
+    "table": "items",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   },
+   {
+    "model": "catid",
+    "title": "catid",
+    "dbType": "int",
+    "table": "items",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   },
+   {
+    "model": "catenamea",
+    "title": "catenamea",
+    "dbType": "varchar",
+    "table": "items",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   },
+   {
+    "model": "cat_name_en1",
+    "title": "cat_name_en1",
+    "dbType": "varchar",
+    "table": "items",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   },
+   {
+    "model": "cat_jp",
+    "title": "cat_jp",
+    "dbType": "varchar",
+    "table": "items",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   },
+   {
+    "model": "cat_kr",
+    "title": "cat_kr",
+    "dbType": "varchar",
+    "table": "items",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   },
+   {
+    "model": "cat_ruh",
+    "title": "cat_ruh",
+    "dbType": "varchar",
+    "table": "items",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   }
+  ],
+  "roles": [
+   {
+    "model": "id",
+    "title": "id",
+    "dbType": "int",
+    "table": "roles",
+    "key": "PRI",
+    "extra": "",
+    "nullable": "NO"
+   },
+   {
+    "model": "created_at",
+    "title": "created_at",
+    "dbType": "datetime",
+    "table": "roles",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   },
+   {
+    "model": "updated_at",
+    "title": "updated_at",
+    "dbType": "datetime",
+    "table": "roles",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   },
+   {
+    "model": "deleted_at",
+    "title": "deleted_at",
+    "dbType": "datetime",
+    "table": "roles",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   },
+   {
+    "model": "name",
+    "title": "name",
+    "dbType": "varchar",
+    "table": "roles",
+    "key": "UNI",
+    "extra": "",
+    "nullable": "NO"
+   },
+   {
+    "model": "display_name",
+    "title": "display_name",
+    "dbType": "varchar",
+    "table": "roles",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   },
+   {
+    "model": "description",
+    "title": "description",
+    "dbType": "varchar",
+    "table": "roles",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   },
+   {
+    "model": "permissions",
+    "title": "permissions",
+    "dbType": "text",
+    "table": "roles",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   },
+   {
+    "model": "extra",
+    "title": "extra",
+    "dbType": "text",
+    "table": "roles",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   },
+   {
+    "model": "menu",
+    "title": "menu",
+    "dbType": "varchar",
+    "table": "roles",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   }
+  ],
+  "users": [
+   {
+    "model": "id",
+    "title": "id",
+    "dbType": "bigint",
+    "table": "users",
+    "key": "PRI",
+    "extra": "",
+    "nullable": "NO"
+   },
+   {
+    "model": "created_at",
+    "title": "created_at",
+    "dbType": "datetime",
+    "table": "users",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   },
+   {
+    "model": "updated_at",
+    "title": "updated_at",
+    "dbType": "datetime",
+    "table": "users",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   },
+   {
+    "model": "deleted_at",
+    "title": "deleted_at",
+    "dbType": "datetime",
+    "table": "users",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   },
+   {
+    "model": "status",
+    "title": "status",
+    "dbType": "varchar",
+    "table": "users",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   },
+   {
+    "model": "role",
+    "title": "role",
+    "dbType": "bigint",
+    "table": "users",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   },
+   {
+    "model": "login",
+    "title": "login",
+    "dbType": "varchar",
+    "table": "users",
+    "key": "UNI",
+    "extra": "",
+    "nullable": "NO"
+   },
+   {
+    "model": "email",
+    "title": "email",
+    "dbType": "varchar",
+    "table": "users",
+    "key": "UNI",
+    "extra": "",
+    "nullable": "NO"
+   },
+   {
+    "model": "register_number",
+    "title": "register_number",
+    "dbType": "varchar",
+    "table": "users",
+    "key": "UNI",
+    "extra": "",
+    "nullable": "NO"
+   },
+   {
+    "model": "avatar",
+    "title": "avatar",
+    "dbType": "text",
+    "table": "users",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   },
+   {
+    "model": "bio",
+    "title": "bio",
+    "dbType": "text",
+    "table": "users",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   },
+   {
+    "model": "first_name",
+    "title": "first_name",
+    "dbType": "varchar",
+    "table": "users",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   },
+   {
+    "model": "last_name",
+    "title": "last_name",
+    "dbType": "varchar",
+    "table": "users",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   },
+   {
+    "model": "birthday",
+    "title": "birthday",
+    "dbType": "date",
+    "table": "users",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   },
+   {
+    "model": "phone",
+    "title": "phone",
+    "dbType": "varchar",
+    "table": "users",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   },
+   {
+    "model": "gender",
+    "title": "gender",
+    "dbType": "varchar",
+    "table": "users",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   },
+   {
+    "model": "password",
+    "title": "password",
+    "dbType": "varchar",
+    "table": "users",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   },
+   {
+    "model": "fcm_token",
+    "title": "fcm_token",
+    "dbType": "varchar",
+    "table": "users",
+    "key": "",
+    "extra": "",
+    "nullable": "YES"
+   }
+  ]
+ }
+}

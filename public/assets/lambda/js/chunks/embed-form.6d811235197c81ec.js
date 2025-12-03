@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[694],{70918:(r,s,e)=>{e.r(s),e.d(s,{default:()=>n});const o={methods:{onSuccess(r){},onError(r){}}};const n=(0,e(14486).A)(o,(function(){var r=this;return(0,r._self._c)("dataform",{ref:"form",attrs:{schemaID:r.$route.params.id,editMode:!1,onSuccess:r.onSuccess,onError:r.onError}})}),[],!1,null,null,null).exports}}]);
