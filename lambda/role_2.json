@@ -1,0 +1,1058 @@
+{
+  "cruds": [
+    {
+      "id": 5,
+      "title": "Ажлын урсгал",
+      "template": "window",
+      "grid": 16,
+      "form": 9,
+      "actions": "",
+      "created_at": "2026-01-17T12:49:32.068896+08:00",
+      "updated_at": "2026-01-17T12:49:39.100002+08:00"
+    },
+    {
+      "id": 6,
+      "title": "Ажлын урсгалын ангилал",
+      "template": "canvas",
+      "grid": 17,
+      "form": 10,
+      "actions": "",
+      "created_at": "2026-01-17T12:49:32.831611+08:00",
+      "updated_at": "2026-01-17T12:49:39.814548+08:00"
+    },
+    {
+      "id": 7,
+      "title": "Ажлын урсгалын систем",
+      "template": "canvas",
+      "grid": 18,
+      "form": 11,
+      "actions": "",
+      "created_at": "2026-01-17T12:49:33.681796+08:00",
+      "updated_at": "2026-01-17T12:49:40.547913+08:00"
+    },
+    {
+      "id": 8,
+      "title": "Жишээ",
+      "template": "canvas",
+      "grid": 19,
+      "form": 12,
+      "actions": "",
+      "created_at": "2026-01-17T12:49:34.532704+08:00",
+      "updated_at": "2026-01-17T12:49:41.279542+08:00"
+    },
+    {
+      "id": 9,
+      "title": "Жишээ холбоос",
+      "template": "canvas",
+      "grid": 20,
+      "form": 13,
+      "actions": "",
+      "created_at": "2026-01-17T12:49:36.808002+08:00",
+      "updated_at": "2026-01-17T12:49:42.019646+08:00"
+    },
+    {
+      "id": 10,
+      "title": "Жишээ эрхийн тохиргоо",
+      "template": "canvas",
+      "grid": 21,
+      "form": 14,
+      "actions": "",
+      "created_at": "2026-01-17T12:49:37.565423+08:00",
+      "updated_at": "2026-01-17T12:49:42.735138+08:00"
+    },
+    {
+      "id": 11,
+      "title": "Жишээ буцаан татах",
+      "template": "canvas",
+      "grid": 22,
+      "form": 15,
+      "actions": "",
+      "created_at": "2026-01-17T12:49:38.380834+08:00",
+      "updated_at": "2026-01-17T12:49:43.482215+08:00"
+    },
+    {
+      "id": 12,
+      "title": "Ажлын урсгалын үе шат",
+      "template": "canvas",
+      "grid": 30,
+      "form": 29,
+      "actions": "",
+      "created_at": "2026-01-17T12:49:46.430767+08:00",
+      "updated_at": "2026-01-17T12:49:47.192841+08:00"
+    },
+    {
+      "id": 13,
+      "title": "Баннар",
+      "template": "canvas",
+      "grid": 32,
+      "form": 31,
+      "actions": "",
+      "created_at": "2026-01-17T12:49:53.014625+08:00",
+      "updated_at": "2026-01-17T12:49:53.841439+08:00"
+    },
+    {
+      "id": 14,
+      "title": "Бидний тухай",
+      "template": "canvas",
+      "grid": 34,
+      "form": 33,
+      "actions": "",
+      "created_at": "2026-01-17T12:49:54.476875+08:00",
+      "updated_at": "2026-01-17T12:49:55.294398+08:00"
+    },
+    {
+      "id": 15,
+      "title": "Веб тохиргоо",
+      "template": "canvas",
+      "grid": 36,
+      "form": 35,
+      "actions": "",
+      "created_at": "2026-01-17T12:49:55.948631+08:00",
+      "updated_at": "2026-01-17T12:49:56.757582+08:00"
+    },
+    {
+      "id": 16,
+      "title": "Холбоо барих",
+      "template": "canvas",
+      "grid": 38,
+      "form": 37,
+      "actions": "",
+      "created_at": "2026-01-17T12:49:57.421874+08:00",
+      "updated_at": "2026-01-17T12:49:58.42939+08:00"
+    },
+    {
+      "id": 17,
+      "title": "Хамтрагч байгууллага",
+      "template": "canvas",
+      "grid": 40,
+      "form": 39,
+      "actions": "",
+      "created_at": "2026-01-17T12:49:59.082659+08:00",
+      "updated_at": "2026-01-17T12:49:59.914752+08:00"
+    },
+    {
+      "id": 18,
+      "title": "Санал хүсэлт",
+      "template": "canvas",
+      "grid": 42,
+      "form": 41,
+      "actions": "",
+      "created_at": "2026-01-17T12:50:00.685678+08:00",
+      "updated_at": "2026-01-17T12:50:01.52644+08:00"
+    },
+    {
+      "id": 19,
+      "title": "Гарын авлага тусламж",
+      "template": "canvas",
+      "grid": 44,
+      "form": 43,
+      "actions": "",
+      "created_at": "2026-01-17T12:50:02.179459+08:00",
+      "updated_at": "2026-01-17T12:50:03.06566+08:00"
+    },
+    {
+      "id": 20,
+      "title": "Мэдээ мэдээлэл",
+      "template": "canvas",
+      "grid": 46,
+      "form": 45,
+      "actions": "",
+      "created_at": "2026-01-17T12:50:03.776073+08:00",
+      "updated_at": "2026-01-17T12:50:04.609184+08:00"
+    },
+    {
+      "id": 21,
+      "title": "Нууцлалын бодлого",
+      "template": "canvas",
+      "grid": 48,
+      "form": 47,
+      "actions": "",
+      "created_at": "2026-01-17T12:50:05.321735+08:00",
+      "updated_at": "2026-01-17T12:50:06.173167+08:00"
+    },
+    {
+      "id": 22,
+      "title": "Санал хүсэлт төрөл",
+      "template": "canvas",
+      "grid": 50,
+      "form": 49,
+      "actions": "",
+      "created_at": "2026-01-17T12:50:06.823014+08:00",
+      "updated_at": "2026-01-17T12:50:07.669383+08:00"
+    },
+    {
+      "id": 23,
+      "title": "Гарын авлагын бүлэг",
+      "template": "canvas",
+      "grid": 52,
+      "form": 51,
+      "actions": "",
+      "created_at": "2026-01-17T12:50:08.315542+08:00",
+      "updated_at": "2026-01-17T12:50:09.195194+08:00"
+    },
+    {
+      "id": 24,
+      "title": "Мэдээний төрөл",
+      "template": "canvas",
+      "grid": 54,
+      "form": 53,
+      "actions": "",
+      "created_at": "2026-01-17T12:50:09.838823+08:00",
+      "updated_at": "2026-01-17T12:50:10.652016+08:00"
+    },
+    {
+      "id": 25,
+      "title": "Хамтрагч байгууллага төрөл",
+      "template": "canvas",
+      "grid": 56,
+      "form": 55,
+      "actions": "",
+      "created_at": "2026-01-17T12:50:11.328016+08:00",
+      "updated_at": "2026-01-17T12:50:12.138018+08:00"
+    },
+    {
+      "id": 26,
+      "title": "Үйлчилгээний төрөл",
+      "template": "canvas",
+      "grid": 58,
+      "form": 57,
+      "actions": "",
+      "created_at": "2026-01-17T12:50:12.766402+08:00",
+      "updated_at": "2026-01-17T12:50:13.616896+08:00"
+    },
+    {
+      "id": 27,
+      "title": "Үйлчилгээний нөхцөл",
+      "template": "canvas",
+      "grid": 60,
+      "form": 59,
+      "actions": "",
+      "created_at": "2026-01-17T12:50:14.287839+08:00",
+      "updated_at": "2026-01-17T12:50:15.551334+08:00"
+    },
+    {
+      "id": 28,
+      "title": "Үйлчилгээний нөхцөл төрөл",
+      "template": "canvas",
+      "grid": 62,
+      "form": 61,
+      "actions": "",
+      "created_at": "2026-01-17T12:50:16.2277+08:00",
+      "updated_at": "2026-01-17T12:50:17.063846+08:00"
+    },
+    {
+      "id": 29,
+      "title": "Түгээмэл асуулт хариулт",
+      "template": "canvas",
+      "grid": 64,
+      "form": 63,
+      "actions": "",
+      "created_at": "2026-01-17T12:50:17.715249+08:00",
+      "updated_at": "2026-01-17T12:50:18.563803+08:00"
+    },
+    {
+      "id": 30,
+      "title": "Түгээмэл асуулт хариулт төрөл",
+      "template": "canvas",
+      "grid": 66,
+      "form": 65,
+      "actions": "",
+      "created_at": "2026-01-17T12:50:19.215334+08:00",
+      "updated_at": "2026-01-17T12:50:20.225634+08:00"
+    },
+    {
+      "id": 31,
+      "title": "Хэрэглэгч",
+      "template": "canvas",
+      "grid": 70,
+      "form": 0,
+      "actions": "",
+      "created_at": "2026-01-17T16:15:24.516377+08:00",
+      "updated_at": "2026-01-17T16:15:24.516377+08:00"
+    },
+    {
+      "id": 32,
+      "title": " Хэрэглэгчийн үзүүлэлтүүд",
+      "template": "canvas",
+      "grid": 79,
+      "form": 68,
+      "actions": "",
+      "created_at": "2026-01-17T16:27:58.306876+08:00",
+      "updated_at": "2026-01-17T16:27:58.306876+08:00"
+    },
+    {
+      "id": 33,
+      "title": "Сургалт",
+      "template": "canvas",
+      "grid": 81,
+      "form": 82,
+      "actions": "",
+      "created_at": "2026-01-17T16:35:57.984813+08:00",
+      "updated_at": "2026-01-17T16:35:57.984813+08:00"
+    },
+    {
+      "id": 34,
+      "title": "Номын сан",
+      "template": "canvas",
+      "grid": 85,
+      "form": 83,
+      "actions": "",
+      "created_at": "2026-01-17T16:41:56.510251+08:00",
+      "updated_at": "2026-01-17T16:41:56.510251+08:00"
+    },
+    {
+      "id": 35,
+      "title": "Флаш картны ангилал",
+      "template": "canvas",
+      "grid": 87,
+      "form": 86,
+      "actions": "",
+      "created_at": "2026-01-17T16:46:11.038922+08:00",
+      "updated_at": "2026-01-17T16:46:11.038922+08:00"
+    },
+    {
+      "id": 36,
+      "title": "Флаш карт",
+      "template": "canvas",
+      "grid": 90,
+      "form": 88,
+      "actions": "",
+      "created_at": "2026-01-17T16:56:02.816386+08:00",
+      "updated_at": "2026-01-17T16:56:02.816386+08:00"
+    },
+    {
+      "id": 37,
+      "title": "Сорилт",
+      "template": "canvas",
+      "grid": 92,
+      "form": 91,
+      "actions": "",
+      "created_at": "2026-01-17T17:02:39.761571+08:00",
+      "updated_at": "2026-01-17T17:02:39.761571+08:00"
+    },
+    {
+      "id": 3,
+      "title": "Давхаргын шүүлтүүр",
+      "template": "canvas",
+      "grid": 0,
+      "form": 3,
+      "actions": "",
+      "created_at": "2026-01-17T12:49:23.613458+08:00",
+      "updated_at": "2026-01-17T17:07:34.187391+08:00"
+    },
+    {
+      "id": 1,
+      "title": "Газрын зураг",
+      "template": "canvas",
+      "grid": 6,
+      "form": 93,
+      "actions": "",
+      "created_at": "2026-01-17T12:49:21.975622+08:00",
+      "updated_at": "2026-01-17T17:07:35.811739+08:00"
+    },
+    {
+      "id": 2,
+      "title": "Давхарга бүлэг",
+      "template": "canvas",
+      "grid": 7,
+      "form": 94,
+      "actions": "",
+      "created_at": "2026-01-17T12:49:22.842559+08:00",
+      "updated_at": "2026-01-17T17:07:36.26882+08:00"
+    },
+    {
+      "id": 4,
+      "title": "Давхарга",
+      "template": "canvas",
+      "grid": 8,
+      "form": 95,
+      "actions": "",
+      "created_at": "2026-01-17T12:49:25.012896+08:00",
+      "updated_at": "2026-01-17T17:07:36.741241+08:00"
+    }
+  ],
+  "menu": [
+    {
+      "children": [
+        {
+          "children": [],
+          "icon": null,
+          "id": "42530aff-b426-bec6-0d33-7999bbec9d19",
+          "key": null,
+          "link_to": "crud",
+          "svg": "/assets/icons/duotone/General/User.svg",
+          "title": null,
+          "url": 31
+        },
+        {
+          "children": [],
+          "icon": null,
+          "id": "d053eca9-5bfa-5314-72e7-d774f030a0a1",
+          "key": null,
+          "link_to": "crud",
+          "svg": "/assets/icons/duotone/Shopping/Chart-bar2.svg",
+          "title": null,
+          "url": 32
+        }
+      ],
+      "icon": null,
+      "id": "e16977f9-5bea-75da-de91-710b2113e471",
+      "key": null,
+      "link_to": "noAction",
+      "svg": "/assets/icons/duotone/General/User.svg",
+      "title": "Хэрэглэгч",
+      "url": null
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "icon": null,
+          "id": "a27f7bf9-d232-aa20-5e2f-f7c8c65b880c",
+          "key": null,
+          "link_to": "crud",
+          "svg": "/assets/icons/duotone/General/Star.svg",
+          "title": null,
+          "url": 33
+        }
+      ],
+      "icon": null,
+      "id": "06fe2692-028e-9c62-5f93-69d5d6cb6803",
+      "key": null,
+      "link_to": "noAction",
+      "svg": "/assets/icons/duotone/General/Star.svg",
+      "title": "Сургалт",
+      "url": null
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "icon": null,
+          "id": "1934518a-f8c2-200a-c5f3-003f4b2867ec",
+          "key": null,
+          "link_to": "crud",
+          "svg": "/assets/icons/duotone/Cooking/Cooking-book.svg",
+          "title": null,
+          "url": 34
+        }
+      ],
+      "icon": null,
+      "id": "0bfd2140-4619-8710-3f33-f4e599892336",
+      "key": null,
+      "link_to": "noAction",
+      "svg": "/assets/icons/duotone/Cooking/Cooking-book.svg",
+      "title": "Номын сан",
+      "url": null
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "icon": null,
+          "id": "6a657a17-76c8-c383-cc19-2507de9ae943",
+          "key": null,
+          "link_to": "crud",
+          "svg": "/assets/icons/duotone/Communication/Address-card.svg",
+          "title": null,
+          "url": 35
+        },
+        {
+          "children": [],
+          "icon": null,
+          "id": "de7e0c1a-7131-d90a-095d-8b69b1ba03d3",
+          "key": null,
+          "link_to": "crud",
+          "svg": "/assets/icons/duotone/Communication/Address-card.svg",
+          "title": null,
+          "url": 36
+        }
+      ],
+      "icon": null,
+      "id": "5903cc91-8989-3865-a0e1-25e344c8f4f7",
+      "key": null,
+      "link_to": "noAction",
+      "svg": "/assets/icons/duotone/Communication/Address-card.svg",
+      "title": "Флаш карт",
+      "url": 35
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "icon": null,
+          "id": "663cf6fd-8cc2-e260-6471-8ca93431a422",
+          "key": null,
+          "link_to": "crud",
+          "svg": "/assets/icons/duotone/Devices/Gamepad1.svg",
+          "title": null,
+          "url": 37
+        }
+      ],
+      "icon": null,
+      "id": "90017545-f799-2508-17e6-57ff27779de6",
+      "key": null,
+      "link_to": "noAction",
+      "svg": "/assets/icons/duotone/Devices/Gamepad1.svg",
+      "title": "Сорилтууд",
+      "url": null
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "icon": null,
+          "id": "d0979750-2d78-d6a2-74cf-0cbf147405aa",
+          "key": null,
+          "link_to": "crud",
+          "svg": null,
+          "title": null,
+          "url": 24
+        },
+        {
+          "children": [],
+          "icon": null,
+          "id": "79264d6e-b47a-4a7e-c354-b040e6c795a4",
+          "key": null,
+          "link_to": "crud",
+          "svg": null,
+          "title": null,
+          "url": 22
+        },
+        {
+          "children": [],
+          "icon": null,
+          "id": "6072aaa4-c5a3-8665-36b7-bec6e01c55d7",
+          "key": null,
+          "link_to": "crud",
+          "svg": null,
+          "title": null,
+          "url": 30
+        },
+        {
+          "children": [],
+          "icon": null,
+          "id": "7b585d7a-65cd-a46c-64a4-39a8c660bc01",
+          "key": null,
+          "link_to": "crud",
+          "svg": null,
+          "title": null,
+          "url": 28
+        },
+        {
+          "children": [],
+          "icon": null,
+          "id": "6def22e2-c8e9-f3f4-bff2-4618709aff2d",
+          "key": null,
+          "link_to": "crud",
+          "svg": null,
+          "title": null,
+          "url": 25
+        }
+      ],
+      "icon": null,
+      "id": "640b7e56-314e-92ca-2ea4-08a598bc7a71",
+      "key": null,
+      "link_to": "noAction",
+      "svg": "/assets/icons/duotone/Code/Settings4.svg",
+      "title": "Master Data",
+      "url": null
+    },
+    {
+      "children": [],
+      "icon": null,
+      "id": "ca89b6b5-fd29-e2e8-92e3-d159af957e11",
+      "key": null,
+      "link_to": "crud",
+      "svg": "/assets/icons/duotone/Communication/Chat-check.svg",
+      "title": null,
+      "url": 20
+    },
+    {
+      "children": [],
+      "icon": null,
+      "id": "e45590a7-1305-5871-94eb-a3fa4c616a50",
+      "key": null,
+      "link_to": "crud",
+      "svg": "/assets/icons/duotone/Code/Question-circle.svg",
+      "title": null,
+      "url": 29
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "icon": null,
+          "id": "929c44e2-0c68-30f8-5eff-add9713c3504",
+          "key": null,
+          "link_to": "crud",
+          "svg": null,
+          "title": null,
+          "url": 16
+        },
+        {
+          "children": [],
+          "icon": null,
+          "id": "ab150e1b-9b33-a615-ecd7-7c2d7540a0c8",
+          "key": null,
+          "link_to": "crud",
+          "svg": null,
+          "title": null,
+          "url": 14
+        }
+      ],
+      "icon": null,
+      "id": "c7533ab9-7fc2-553b-7aca-a6453ac7dfc0",
+      "key": null,
+      "link_to": "noAction",
+      "svg": "/assets/icons/duotone/Interface/Phone.svg",
+      "title": "Холбоо барих",
+      "url": null
+    },
+    {
+      "children": [],
+      "icon": null,
+      "id": "357fb7fe-d2b3-4e63-e947-1a133abe287a",
+      "key": null,
+      "link_to": "crud",
+      "svg": "/assets/icons/duotone/Communication/Incoming-mail.svg",
+      "title": null,
+      "url": 18
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "icon": null,
+          "id": "1ff648bf-2a74-7d6f-bdbb-6cd7580c362c",
+          "key": null,
+          "link_to": "crud",
+          "svg": null,
+          "title": null,
+          "url": 21
+        },
+        {
+          "children": [],
+          "icon": null,
+          "id": "ba8e1be9-ccc3-3d88-f6e4-6ad9972cc972",
+          "key": null,
+          "link_to": "crud",
+          "svg": null,
+          "title": null,
+          "url": 27
+        },
+        {
+          "children": [],
+          "icon": null,
+          "id": "6c79e707-97b3-3855-70d2-e00f750d4a86",
+          "key": null,
+          "link_to": "crud",
+          "svg": null,
+          "title": null,
+          "url": 13
+        }
+      ],
+      "icon": null,
+      "id": "a8d4a70f-1ee2-f327-65c6-3da259fc9114",
+      "key": null,
+      "link_to": "noAction",
+      "svg": "/assets/icons/duotone/Communication/Mail-box.svg",
+      "title": "Бусад",
+      "url": null
+    },
+    {
+      "children": [],
+      "icon": null,
+      "id": "06c9aea4-9aae-e344-b1d1-11d77d559220",
+      "key": null,
+      "link_to": null,
+      "svg": null,
+      "title": null,
+      "url": null
+    }
+  ],
+  "permissions": {
+    "default_menu": "#/p/e16977f9-5bea-75da-de91-710b2113e471",
+    "extra": {
+      "approve": false,
+      "chart": false,
+      "datasource": false,
+      "excelupload": false,
+      "hascustomcreatebtn": false,
+      "moqup": false,
+      "userlist": false
+    },
+    "menu_id": 67,
+    "permissions": {
+      "06c9aea4-9aae-e344-b1d1-11d77d559220": {
+        "menu_id": "06c9aea4-9aae-e344-b1d1-11d77d559220",
+        "show": false,
+        "title": null
+      },
+      "06fe2692-028e-9c62-5f93-69d5d6cb6803": {
+        "c": true,
+        "d": true,
+        "gridDeleteConditionJS": "",
+        "gridDeleteConditionSQL": "",
+        "gridEditConditionJS": "",
+        "gridEditConditionSQL": "",
+        "menu_id": "06fe2692-028e-9c62-5f93-69d5d6cb6803",
+        "r": true,
+        "show": true,
+        "title": "Сургалт",
+        "u": true
+      },
+      "0bfd2140-4619-8710-3f33-f4e599892336": {
+        "c": true,
+        "d": true,
+        "gridDeleteConditionJS": "",
+        "gridDeleteConditionSQL": "",
+        "gridEditConditionJS": "",
+        "gridEditConditionSQL": "",
+        "menu_id": "0bfd2140-4619-8710-3f33-f4e599892336",
+        "r": true,
+        "show": true,
+        "title": "Номын сан",
+        "u": true
+      },
+      "1934518a-f8c2-200a-c5f3-003f4b2867ec": {
+        "c": true,
+        "d": true,
+        "gridDeleteConditionJS": "",
+        "gridDeleteConditionSQL": "",
+        "gridEditConditionJS": "",
+        "gridEditConditionSQL": "",
+        "menu_id": "1934518a-f8c2-200a-c5f3-003f4b2867ec",
+        "r": true,
+        "show": true,
+        "title": "Номын сан",
+        "u": true
+      },
+      "1ff648bf-2a74-7d6f-bdbb-6cd7580c362c": {
+        "c": true,
+        "d": true,
+        "gridDeleteConditionJS": "",
+        "gridDeleteConditionSQL": "",
+        "gridEditConditionJS": "",
+        "gridEditConditionSQL": "",
+        "menu_id": "1ff648bf-2a74-7d6f-bdbb-6cd7580c362c",
+        "r": true,
+        "show": true,
+        "title": "Нууцлалын бодлого",
+        "u": true
+      },
+      "357fb7fe-d2b3-4e63-e947-1a133abe287a": {
+        "c": true,
+        "d": true,
+        "gridDeleteConditionJS": "",
+        "gridDeleteConditionSQL": "",
+        "gridEditConditionJS": "",
+        "gridEditConditionSQL": "",
+        "menu_id": "357fb7fe-d2b3-4e63-e947-1a133abe287a",
+        "r": true,
+        "show": true,
+        "title": "Санал хүсэлт",
+        "u": true
+      },
+      "42530aff-b426-bec6-0d33-7999bbec9d19": {
+        "c": true,
+        "d": true,
+        "gridDeleteConditionJS": "",
+        "gridDeleteConditionSQL": "",
+        "gridEditConditionJS": "",
+        "gridEditConditionSQL": "",
+        "menu_id": "42530aff-b426-bec6-0d33-7999bbec9d19",
+        "r": true,
+        "show": true,
+        "title": "Хэрэглэгч",
+        "u": true
+      },
+      "5903cc91-8989-3865-a0e1-25e344c8f4f7": {
+        "c": true,
+        "d": true,
+        "gridDeleteConditionJS": "",
+        "gridDeleteConditionSQL": "",
+        "gridEditConditionJS": "",
+        "gridEditConditionSQL": "",
+        "menu_id": "5903cc91-8989-3865-a0e1-25e344c8f4f7",
+        "r": true,
+        "show": true,
+        "title": "Флаш карт",
+        "u": true
+      },
+      "6072aaa4-c5a3-8665-36b7-bec6e01c55d7": {
+        "c": true,
+        "d": true,
+        "gridDeleteConditionJS": "",
+        "gridDeleteConditionSQL": "",
+        "gridEditConditionJS": "",
+        "gridEditConditionSQL": "",
+        "menu_id": "6072aaa4-c5a3-8665-36b7-bec6e01c55d7",
+        "r": true,
+        "show": true,
+        "title": "Түгээмэл асуулт хариулт төрөл",
+        "u": true
+      },
+      "640b7e56-314e-92ca-2ea4-08a598bc7a71": {
+        "c": true,
+        "d": true,
+        "gridDeleteConditionJS": "",
+        "gridDeleteConditionSQL": "",
+        "gridEditConditionJS": "",
+        "gridEditConditionSQL": "",
+        "menu_id": "640b7e56-314e-92ca-2ea4-08a598bc7a71",
+        "r": true,
+        "show": true,
+        "title": "Master Data",
+        "u": true
+      },
+      "663cf6fd-8cc2-e260-6471-8ca93431a422": {
+        "c": true,
+        "d": true,
+        "gridDeleteConditionJS": "",
+        "gridDeleteConditionSQL": "",
+        "gridEditConditionJS": "",
+        "gridEditConditionSQL": "",
+        "menu_id": "663cf6fd-8cc2-e260-6471-8ca93431a422",
+        "r": true,
+        "show": true,
+        "title": "Сорилт",
+        "u": true
+      },
+      "6a657a17-76c8-c383-cc19-2507de9ae943": {
+        "c": true,
+        "d": true,
+        "gridDeleteConditionJS": "",
+        "gridDeleteConditionSQL": "",
+        "gridEditConditionJS": "",
+        "gridEditConditionSQL": "",
+        "menu_id": "6a657a17-76c8-c383-cc19-2507de9ae943",
+        "r": true,
+        "show": true,
+        "title": "Флаш картны ангилал",
+        "u": true
+      },
+      "6c79e707-97b3-3855-70d2-e00f750d4a86": {
+        "c": true,
+        "d": true,
+        "gridDeleteConditionJS": "",
+        "gridDeleteConditionSQL": "",
+        "gridEditConditionJS": "",
+        "gridEditConditionSQL": "",
+        "menu_id": "6c79e707-97b3-3855-70d2-e00f750d4a86",
+        "r": true,
+        "show": true,
+        "title": "Баннар",
+        "u": true
+      },
+      "6def22e2-c8e9-f3f4-bff2-4618709aff2d": {
+        "c": true,
+        "d": true,
+        "gridDeleteConditionJS": "",
+        "gridDeleteConditionSQL": "",
+        "gridEditConditionJS": "",
+        "gridEditConditionSQL": "",
+        "menu_id": "6def22e2-c8e9-f3f4-bff2-4618709aff2d",
+        "r": true,
+        "show": true,
+        "title": "Хамтрагч байгууллага төрөл",
+        "u": true
+      },
+      "79264d6e-b47a-4a7e-c354-b040e6c795a4": {
+        "c": true,
+        "d": true,
+        "gridDeleteConditionJS": "",
+        "gridDeleteConditionSQL": "",
+        "gridEditConditionJS": "",
+        "gridEditConditionSQL": "",
+        "menu_id": "79264d6e-b47a-4a7e-c354-b040e6c795a4",
+        "r": true,
+        "show": true,
+        "title": "Санал хүсэлт төрөл",
+        "u": true
+      },
+      "7b585d7a-65cd-a46c-64a4-39a8c660bc01": {
+        "c": true,
+        "d": true,
+        "gridDeleteConditionJS": "",
+        "gridDeleteConditionSQL": "",
+        "gridEditConditionJS": "",
+        "gridEditConditionSQL": "",
+        "menu_id": "7b585d7a-65cd-a46c-64a4-39a8c660bc01",
+        "r": true,
+        "show": true,
+        "title": "Үйлчилгээний нөхцөл төрөл",
+        "u": true
+      },
+      "90017545-f799-2508-17e6-57ff27779de6": {
+        "c": true,
+        "d": true,
+        "gridDeleteConditionJS": "",
+        "gridDeleteConditionSQL": "",
+        "gridEditConditionJS": "",
+        "gridEditConditionSQL": "",
+        "menu_id": "90017545-f799-2508-17e6-57ff27779de6",
+        "r": true,
+        "show": true,
+        "title": "Сорилтууд",
+        "u": true
+      },
+      "929c44e2-0c68-30f8-5eff-add9713c3504": {
+        "c": true,
+        "d": true,
+        "gridDeleteConditionJS": "",
+        "gridDeleteConditionSQL": "",
+        "gridEditConditionJS": "",
+        "gridEditConditionSQL": "",
+        "menu_id": "929c44e2-0c68-30f8-5eff-add9713c3504",
+        "r": true,
+        "show": true,
+        "title": "Холбоо барих",
+        "u": true
+      },
+      "a27f7bf9-d232-aa20-5e2f-f7c8c65b880c": {
+        "c": true,
+        "d": true,
+        "gridDeleteConditionJS": "",
+        "gridDeleteConditionSQL": "",
+        "gridEditConditionJS": "",
+        "gridEditConditionSQL": "",
+        "menu_id": "a27f7bf9-d232-aa20-5e2f-f7c8c65b880c",
+        "r": true,
+        "show": true,
+        "title": "Сургалт",
+        "u": true
+      },
+      "a8d4a70f-1ee2-f327-65c6-3da259fc9114": {
+        "c": true,
+        "d": true,
+        "gridDeleteConditionJS": "",
+        "gridDeleteConditionSQL": "",
+        "gridEditConditionJS": "",
+        "gridEditConditionSQL": "",
+        "menu_id": "a8d4a70f-1ee2-f327-65c6-3da259fc9114",
+        "r": true,
+        "show": true,
+        "title": "Бусад",
+        "u": true
+      },
+      "ab150e1b-9b33-a615-ecd7-7c2d7540a0c8": {
+        "c": true,
+        "d": true,
+        "gridDeleteConditionJS": "",
+        "gridDeleteConditionSQL": "",
+        "gridEditConditionJS": "",
+        "gridEditConditionSQL": "",
+        "menu_id": "ab150e1b-9b33-a615-ecd7-7c2d7540a0c8",
+        "r": true,
+        "show": true,
+        "title": "Бидний тухай",
+        "u": true
+      },
+      "ba8e1be9-ccc3-3d88-f6e4-6ad9972cc972": {
+        "c": true,
+        "d": true,
+        "gridDeleteConditionJS": "",
+        "gridDeleteConditionSQL": "",
+        "gridEditConditionJS": "",
+        "gridEditConditionSQL": "",
+        "menu_id": "ba8e1be9-ccc3-3d88-f6e4-6ad9972cc972",
+        "r": true,
+        "show": true,
+        "title": "Үйлчилгээний нөхцөл",
+        "u": true
+      },
+      "c7533ab9-7fc2-553b-7aca-a6453ac7dfc0": {
+        "c": true,
+        "d": true,
+        "gridDeleteConditionJS": "",
+        "gridDeleteConditionSQL": "",
+        "gridEditConditionJS": "",
+        "gridEditConditionSQL": "",
+        "menu_id": "c7533ab9-7fc2-553b-7aca-a6453ac7dfc0",
+        "r": true,
+        "show": true,
+        "title": "Холбоо барих",
+        "u": true
+      },
+      "ca89b6b5-fd29-e2e8-92e3-d159af957e11": {
+        "c": true,
+        "d": true,
+        "gridDeleteConditionJS": "",
+        "gridDeleteConditionSQL": "",
+        "gridEditConditionJS": "",
+        "gridEditConditionSQL": "",
+        "menu_id": "ca89b6b5-fd29-e2e8-92e3-d159af957e11",
+        "r": true,
+        "show": true,
+        "title": "Баннар",
+        "u": true
+      },
+      "d053eca9-5bfa-5314-72e7-d774f030a0a1": {
+        "c": true,
+        "d": true,
+        "gridDeleteConditionJS": "",
+        "gridDeleteConditionSQL": "",
+        "gridEditConditionJS": "",
+        "gridEditConditionSQL": "",
+        "menu_id": "d053eca9-5bfa-5314-72e7-d774f030a0a1",
+        "r": true,
+        "show": true,
+        "title": " Хэрэглэгчийн үзүүлэлтүүд",
+        "u": true
+      },
+      "d0979750-2d78-d6a2-74cf-0cbf147405aa": {
+        "c": true,
+        "d": true,
+        "gridDeleteConditionJS": "",
+        "gridDeleteConditionSQL": "",
+        "gridEditConditionJS": "",
+        "gridEditConditionSQL": "",
+        "menu_id": "d0979750-2d78-d6a2-74cf-0cbf147405aa",
+        "r": true,
+        "show": true,
+        "title": "Мэдээний төрөл",
+        "u": true
+      },
+      "de7e0c1a-7131-d90a-095d-8b69b1ba03d3": {
+        "c": true,
+        "d": true,
+        "gridDeleteConditionJS": "",
+        "gridDeleteConditionSQL": "",
+        "gridEditConditionJS": "",
+        "gridEditConditionSQL": "",
+        "menu_id": "de7e0c1a-7131-d90a-095d-8b69b1ba03d3",
+        "r": true,
+        "show": true,
+        "title": "Флаш карт",
+        "u": true
+      },
+      "e16977f9-5bea-75da-de91-710b2113e471": {
+        "c": true,
+        "d": true,
+        "gridDeleteConditionJS": "",
+        "gridDeleteConditionSQL": "",
+        "gridEditConditionJS": "",
+        "gridEditConditionSQL": "",
+        "menu_id": "e16977f9-5bea-75da-de91-710b2113e471",
+        "r": true,
+        "show": true,
+        "title": "Хэрэглэгч",
+        "u": true
+      },
+      "e45590a7-1305-5871-94eb-a3fa4c616a50": {
+        "c": true,
+        "d": true,
+        "gridDeleteConditionJS": "",
+        "gridDeleteConditionSQL": "",
+        "gridEditConditionJS": "",
+        "gridEditConditionSQL": "",
+        "menu_id": "e45590a7-1305-5871-94eb-a3fa4c616a50",
+        "r": true,
+        "show": true,
+        "title": "Түгээмэл асуулт хариулт",
+        "u": true
+      }
+    }
+  }
+}

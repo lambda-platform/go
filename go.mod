@@ -18,6 +18,7 @@ require (
 
 require (
 	github.com/go-redis/redis v6.15.9+incompatible
+	github.com/golang-jwt/jwt/v4 v4.5.0
 	github.com/vektah/gqlparser/v2 v2.5.22
 )
 
