@@ -3,7 +3,7 @@ module lambda
 go 1.24.4
 
 require (
-	github.com/99designs/gqlgen v0.17.66
+	github.com/99designs/gqlgen v0.17.66 // indirect
 	github.com/gofiber/fiber/v2 v2.52.6
 	github.com/golang-jwt/jwt/v5 v5.0.0 // indirect
 	github.com/google/uuid v1.6.0 // indirect
@@ -12,15 +12,11 @@ require (
 	github.com/khankhulgun/workflow v0.0.10
 	github.com/lambda-platform/lambda v0.9.0
 	github.com/thedevsaddam/govalidator v1.9.10
-	github.com/valyala/fasthttp v1.51.0
+	github.com/valyala/fasthttp v1.51.0 // indirect
 	gorm.io/gorm v1.25.5
 )
 
-require (
-	github.com/go-redis/redis v6.15.9+incompatible
-	github.com/golang-jwt/jwt/v4 v4.5.0
-	github.com/vektah/gqlparser/v2 v2.5.22
-)
+require github.com/golang-jwt/jwt/v4 v4.5.0
 
 require (
 	cloud.google.com/go/compute/metadata v0.3.0 // indirect
@@ -33,7 +29,6 @@ require (
 	github.com/dustin/go-humanize v1.0.0 // indirect
 	github.com/frankban/quicktest v1.14.6 // indirect
 	github.com/go-sql-driver/mysql v1.7.0 // indirect
-	github.com/go-viper/mapstructure/v2 v2.2.1 // indirect
 	github.com/gofiber/contrib/jwt v1.0.7 // indirect
 	github.com/gofiber/template v1.8.2 // indirect
 	github.com/gofiber/template/html/v2 v2.0.5 // indirect
@@ -43,8 +38,6 @@ require (
 	github.com/golang/glog v1.2.0 // indirect
 	github.com/google/btree v1.0.0 // indirect
 	github.com/google/go-cmp v0.6.0 // indirect
-	github.com/gorilla/websocket v1.5.0 // indirect
-	github.com/hashicorp/golang-lru/v2 v2.0.7 // indirect
 	github.com/iancoleman/strcase v0.3.0 // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
 	github.com/jackc/pgservicefile v0.0.0-20221227161230-091c0ba34f0a // indirect
@@ -61,8 +54,6 @@ require (
 	github.com/mattn/go-runewidth v0.0.16 // indirect
 	github.com/microsoft/go-mssqldb v1.6.0 // indirect
 	github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646 // indirect
-	github.com/onsi/ginkgo v1.16.5 // indirect
-	github.com/onsi/gomega v1.36.2 // indirect
 	github.com/otiai10/copy v1.14.0 // indirect
 	github.com/peterbourgon/diskv/v3 v3.0.1 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
@@ -77,6 +68,7 @@ require (
 	github.com/tealeg/xlsx/v3 v3.3.12 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/tcplisten v1.0.0 // indirect
+	github.com/vektah/gqlparser/v2 v2.5.22 // indirect
 	golang.org/x/crypto v0.38.0 // indirect
 	golang.org/x/image v0.25.0 // indirect
 	golang.org/x/mod v0.23.0 // indirect
