@@ -1,14 +1,13 @@
 package main
 
 import (
-	"os"
-	"regexp"
-
 	"github.com/lambda-platform/lambda/DB"
 	"github.com/lambda-platform/lambda/DBSchema"
 	"github.com/lambda-platform/lambda/config"
 	"github.com/lambda-platform/lambda/generator"
 	genertarModels "github.com/lambda-platform/lambda/generator/models"
+	"os"
+	"regexp"
 )
 
 func main() {
@@ -36,6 +35,8 @@ func main() {
 	/*
 	   Generate GRAPHQL
 	*/
+	generator.GQLInit(dbSchema, GraphqlSchemas)
+
 	/*
 	 * Save Role Data
 	 */

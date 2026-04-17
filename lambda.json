@@ -1,21 +1,23 @@
 {
     "schema_load_mode": "auto",
+    "project_key": "",
     "theme": "aside",
-    "domain": "selection.judges.mn",
-    "title": "МОНГОЛ УЛСЫН ШҮҮХИЙН ЕРӨНХИЙ ЗӨВЛӨЛ",
-    "subTitle": "Шүүгчийн сонгон шалгаруулалтын цахим систем",
-    "copyright": "МОНГОЛ УЛСЫН ШҮҮХИЙН ЕРӨНХИЙ ЗӨВЛӨЛ© 2026",
-    "favicon": "/mnca/images/browsershuuh.png",
+    "domain": "localhost",
+    "cookie_domain": "",
+    "title": "Lambda Platform",
+    "subTitle": "Automated Workforce",
+    "copyright": "Lambda Platform© 2025",
+    "favicon": "/mnca/images/favicon.png",
     "bg": "/assets/lambda/images/bg.png",
-    "logo_dark": "/assets/lambda/images/huraasan.svg",
-    "logo": "/assets/lambda/images/shuuh_logo.svg",
-    "logo_squire": "/assets/lambda/images/huraasan.svg",
-    "logo_squire_dark": "/assets/lambda/images/huraasan.svg",
+    "logo": "/assets/lambda/images/logo.svg",
+    "logo_dark": "/assets/lambda/images/logo_dark.svg",
+    "logo_squire": "/assets/lambda/images/logo.svg",
+    "logo_squire_dark": "/assets/lambda/images/logo_dark.svg",
     "logoText": "",
     "super_url": "/lambda/puzzle",
     "app_url": "/admin",
     "has_language": false,
-    "withCrudLog": true,
+    "withCrudLog": false,
     "krud_public": false,
     "languages": [
         {
@@ -35,104 +37,41 @@
         }
     ],
     "user_data_fields": [
-        "id",
-        "org_id",
-        "court_id",
-        "judge_id"
+        "id"
     ],
     "data_form_custom_elements": [
         {
-            "element": "customPortrait"
-        },
-        {
-            "element": "customIdCard"
-        },
-        {
             "element": "datetimeAutoFill"
-        },
-        {
-            "element": "customUserAvatar"
         },
         {
             "element": "inputWithIcon"
         },
         {
-            "element": "candidateInfoSub"
+            "element": "Point"
         },
         {
-            "element": "subCopyFill"
+            "element": "Point3D"
         },
         {
-            "element": "examQuestion"
+            "element": "Polygon"
         },
         {
-            "element": "courtUser"
+            "element": "MultiPolygon"
         },
         {
-            "element": "employeePermission"
+            "element": "Line"
         },
         {
-            "element": "struct"
+            "element": "MultiLine"
         },
         {
-            "element": "userScoreMember"
+            "element": "workflow"
         },
         {
-            "element": "candidateExamPublisher"
+            "element": "process_status"
         },
         {
-            "element": "candidateName"
-        },
-        {
-            "element": "userScoreMemberAction"
-        },
-        {
-            "element": "userScoreMemberComfirm"
-        },
-        {
-            "element": "userScoreCombineConfirm"
-        },
-        {
-            "element": "candidateAttachment"
-        },
-        {
-            "element": "CandidateAuthorization"
-        },
-        {
-            "element": "eSign"
-        },
-        {
-            "element": "eSign2"
-        },
-        {
-            "element": "eSign3"
-        },
-        {
-            "element": "examCorrectAnswer"
-        },
-        {
-            "element": "examQuestionScore"
-        },
-        {
-            "element": "examQuestionScorePre"
-        },
-        {
-            "element": "examAverageScore"
-        },
-        {
-            "element": "examScoreAndLibraryCaller"
-        },
-        {
-            "element": "examQuestionImporter"
-        },
-        {
-            "element": "candidateExamPublisherNew"
-        },
-        {
-            "element": "docUploader"
-        },
-        {
-            "element": "pdfUploader"
+            "element": "mapserver_layer"
         }
     ],
     "data_grid_custom_elements": [
@@ -146,13 +85,13 @@
             "element": "callForm"
         },
         {
-            "element": "candidateInfoGrid"
+            "element": "process_status"
         }
     ],
     "password_reset_time_out": 0,
     "static_words": {
         "mn_MN": {
-            "title": "МОНГОЛ УЛСЫН ШҮҮХИЙН ЕРӨНХИЙ ЗӨВЛӨЛ",
+            "title": "Lambda Platform",
             "subtitle": "Програм хамгамж бүтээх ажлыг автоматжуулагч",
             "login": "Нэвтрэх",
             "forgot": "Нууц үгээ мартсан?",
@@ -167,7 +106,7 @@
             "forgotDescription": "И-мэйл хаягаа оруулаад нууц үг шинэчлэнэ үү",
             "sendPasswordResetCode": "Нууц үг солих код и-мэйлээр авах",
             "passwordConfirm": "Нууц үг баталгаажуулах",
-            "userNotFound": "Хэрэгэлч олдсонгүй !!!",
+            "userNotFound": "Хэрэглэгч олдсонгүй !!!",
             "codeSentError": "Нууц үг шинэчлэх код илгээх үед алдаа гарлаа!",
             "passwordReset": "НУУЦ ҮГ ШИНЭЧЛЭХ",
             "passwordResetCode": "Нууц үгээ сэргээх код",
@@ -180,7 +119,7 @@
             "noReply": "Энэхүү и-мэйл нь автоматаар илгээгдсэн учир хариу бичих шаардлагагүй."
         },
         "en_US": {
-            "title": "МОНГОЛ УЛСЫН ШҮҮХИЙН ЕРӨНХИЙ ЗӨВЛӨЛ",
+            "title": "Lambda Platform",
             "subtitle": "Automated Workforce",
             "login": "Login",
             "forgot": "Forgot password?",
@@ -210,17 +149,17 @@
     },
     "notify": {
         "firebaseConfig": {
-            "apiKey": "AIzaSyBg2Pp9i_YfHclqj_qpJTYvvTNnPauNUzk",
-            "publicKey": "BGB1jdJ7UvCua4CIgaRRbuvIDjVduLeAwswn_rQ46UISVZXE2e_HqwTyvXH66JDIIiwHo4LdGt8XG3SNNre-Fbo",
-            "authDomain": "shuuh-ef64a.firebaseapp.com",
-            "databaseURL": "",
-            "projectId": "shuuh-ef64a",
-            "storageBucket": "shuuh-ef64a.appspot.com",
-            "messagingSenderId": "273200019154",
-            "appId": "1:273200019154:web:374a285b8fd57675d9df0b",
-            "measurementId": ""
+            "apiKey": "AIzaSyDZVppS8vjr61Gxr1cn7NUytJD01bOJ-dQ",
+            "publicKey": "BIIZT_mp2JMSL5MaLzpwE4p_bX618foBLKuCSBeSOaeKaxXVl4Tv5U6xSGXKIdADsGa4IvSkkdnRncA49GKZoQY",
+            "authDomain": "miat-chat.firebaseapp.com",
+            "databaseURL": "https://miat-chat-default-rtdb.asia-southeast1.firebasedatabase.app",
+            "projectId": "miat-chat",
+            "storageBucket": "miat-chat.appspot.com",
+            "messagingSenderId": "155525398252",
+            "appId": "1:155525398252:web:32def6eb623d785f78efc9",
+            "measurementId": "G-SRWB20XQ60"
         },
-        "serverKey": "AAAAP5v9dtI:APA91bFr5e7RPaF8AiJd09BObethrvBrgXlybJZ4DVdCP6kefKM95c4ubVh_CPVGhupUZookLl1C5Qtc3d0nyKCensl6mGu7QgBAtHQVo2AL1BY9yk5siadDOWfyDZPPRQDmLcd07pxF",
+        "serverKey": "./firebase-key.json",
         "sound": "/assets/lambda/notification.mp3",
         "icon": ""
     },
@@ -230,83 +169,13 @@
             "svgs": [
                 {
                     "name": "Branch",
-                    "url": "/icons/organization/branch.svg"
+                    "url": "/assets/icons/organization/branch.svg"
                 },
                 {
                     "name": "Structure",
-                    "url": "/icons/organization/structure.svg"
+                    "url": "/assets/icons/organization/structure.svg"
                 }
             ]
-        }
-    ],
-    "secure_fields": [
-        {
-            "table": "exam_user_answer_temp",
-            "column": "answers"
-        },
-        {
-            "table": "candidate_xyp_data",
-            "column": "xyp_data"
-        },
-        {
-            "table": "mod3_user_score",
-            "column": "answers"
-        },
-        {
-            "table": "mod3_asuut_sub",
-            "column": "correct_answer"
-        },
-        {
-            "table": "mod3_asuut_sub",
-            "column": "tailbar"
-        },
-        {
-            "table": "mod3_asuut_sub",
-            "column": "asuult"
-        },
-        {
-            "table": "mod3_asuut_sub",
-            "column": "file_buteeh"
-        },
-        {
-            "table": "mod3_asuut_sub",
-            "column": "answer_short"
-        },
-        {
-            "table": "view_mod3_asuut_sub",
-            "column": "correct_answer"
-        },
-        {
-            "table": "view_mod3_asuut_sub",
-            "column": "tailbar"
-        },
-        {
-            "table": "view_mod3_asuut_sub",
-            "column": "asuult"
-        },
-        {
-            "table": "view_mod3_asuut_sub",
-            "column": "file_buteeh"
-        },
-        {
-            "table": "view_mod3_asuut_sub",
-            "column": "answer_short"
-        },
-        {
-            "table": "mod3_user_score_by_member_question",
-            "column": "check_answer"
-        },
-        {
-            "table": "mod3_user_score_by_member_question",
-            "column": "question"
-        },
-        {
-            "table": "sub_mod_speak_test_sub",
-            "column": "question"
-        },
-        {
-            "table": "sub_mod_speak_test_sub",
-            "column": "answer"
         }
     ]
 }

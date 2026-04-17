@@ -2,6 +2,7 @@ package bootstrap
 
 import (
 	"lambda/app/middlewares"
+	"lambda/lambda/graph"
 	"lambda/lambda/models/form/caller"
 	gridCaller "lambda/lambda/models/grid/caller"
 
@@ -66,7 +67,7 @@ func Set() *lambda.Lambda {
 		| MODULES
 		|----------------------------------------------
 	*/
-
+	graph.Set(Lambda.App)
 	puzzle.Set(Lambda.App, Lambda.ModuleName, gridCaller.GetMODEL, false, true, []string{}, nil, []string{"crud_form", "crud_grid", "crud_form", "crud_grid", "menu_grid", "menu_form", "user_form"})
 	chart.Set(Lambda.App)
 	moqup.Set(Lambda.App)
